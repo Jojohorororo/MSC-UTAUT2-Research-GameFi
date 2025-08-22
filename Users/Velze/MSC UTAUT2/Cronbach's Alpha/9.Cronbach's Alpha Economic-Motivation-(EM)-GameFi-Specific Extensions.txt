@@ -1,0 +1,150 @@
+\MSC UTAUT2\Cronbach's Alpha\9.Cronbach's Alpha Economic-Motivation-(EM)-GameFi-Specific Extensions.py" 
+Could not find platform independent libraries <prefix>
+=================================================================
+CRONBACH'S ALPHA ANALYSIS - ECONOMIC MOTIVATION (EM)
+GameFi-Specific Extensions
+=================================================================
+Loading data...
+Current directory: C:\Users\Velze\PyCharmMiscProject\Users\Velze\MSC UTAUT2\Cronbach's Alpha
+Files in current directory:
+  📊 behavioralintention BI.xlsx
+  📊 economicMotivation EM GameFi Specific Extensions.xlsx
+  📊 effort expectancy (EE).xlsx
+  📊 facilitationconditions FC.xlsx
+  📊 habit HB.xlsx
+  📊 hedonisticmotivation HM.xlsx
+  📊 performance expect PE.xlsx
+  📊 pricevalue PV.xlsx
+  📊 socialinfluence SI.xlsx
+✓ Data loaded successfully from 'economicMotivation EM GameFi Specific Extensions.xlsx': 516 participants
+✓ Found 3 Economic Motivation items
+
+Economic Motivation Items (GameFi-Specific Extensions):
+EM1: Earning cryptocurrency or NFTs is my primary motivation for using GameFi platforms
+EM2: I would stop using a GameFi platform if the financial rewards significantly decreased
+EM3: The financial reward aspect is more important to me than the gameplay in GameFi platforms
+
+Original response distribution:
+EM1: {'Strongly Agree': 265, 'Agree': 148, 'Neither Agree/Disagree': 66, 'Disagree': 24, 'Strongly Disagree': 13}
+EM2: {'Strongly Agree': 216, 'Agree': 152, 'Neither Agree/Disagree': 98, 'Disagree': 35, 'Strongly Disagree': 15}
+EM3: {'Strongly Agree': 260, 'Agree': 139, 'Neither Agree/Disagree': 74, 'Disagree': 28, 'Strongly Disagree': 15}
+
+Converting responses to numeric scale (1-5)...
+✓ Final dataset: 516 complete responses
+
+=================================================================
+DESCRIPTIVE STATISTICS
+=================================================================
+           EM1      EM2      EM3
+count  516.000  516.000  516.000
+mean     4.217    4.006    4.165
+std      1.005    1.069    1.049
+min      1.000    1.000    1.000
+25%      4.000    3.000    4.000
+50%      5.000    4.000    5.000
+75%      5.000    5.000    5.000
+max      5.000    5.000    5.000
+
+=================================================================
+RELIABILITY ANALYSIS RESULTS
+=================================================================
+Cronbach's Alpha: 0.8816
+Reliability Level: Good
+
+Number of Items: 3
+Number of Cases: 516
+
+Item   Corrected Item-Total Cronbach's α if
+       Correlation          Item Deleted   
+---------------------------------------------
+EM1             0.7679          0.8353
+EM2             0.7302          0.8691
+EM3             0.8161          0.7906
+
+=================================================================
+ITEM ANALYSIS
+=================================================================
+Item   Mean     Std Dev    Variance  
+-----------------------------------
+EM1     4.217    1.005    1.009
+EM2     4.006    1.069    1.144
+EM3     4.165    1.049    1.101
+
+=================================================================
+ECONOMIC MOTIVATION SCALE EVALUATION
+=================================================================
+Overall Economic Motivation Mean: 4.129
+Interpretation: Strong economic motivation (Primarily financially-driven GameFi usage)
+
+Economic Motivation Breakdown:
+EM1 (Primary crypto/NFT motivation): 4.217
+EM2 (Financial reward dependency): 4.006
+EM3 (Financial > gameplay priority): 4.165
+
+Economic Motivation Analysis:
+Strongest Economic Aspect: EM1 (M = 4.217)
+Weakest Economic Aspect: EM2 (M = 4.006)
+
+Economic Dimension Analysis:
+Primary Economic Motivation: 4.217
+Financial Reward Dependency: 4.006
+Financial Priority over Gameplay: 4.165
+
+Economic Motivation Profile:
+Key Insight: Primary economic motivation but balanced approach (not purely financial)
+
+Extrinsic vs Intrinsic Motivation Analysis:
+Motivation Balance: Highly extrinsic (primarily financially motivated)
+
+Financial Dependency Assessment:
+Reward Dependency Level: High dependency (would abandon platforms with reduced rewards)
+
+Economic Motivation Segmentation:
+High Economic Motivation (≥4.0): 376 (72.9%)
+Moderate Economic Motivation (3.0-3.9): 92 (17.8%)
+Low Economic Motivation (<3.0): 48 (9.3%)
+
+GameFi Sustainability Analysis:
+Platform Sustainability: High economic dependency - platform sustainability tied to financial rewards
+
+Economic Adoption Implications:
+Adoption Driver: Strong economic motivations support adoption IF financial rewards are attractive
+
+Crypto/NFT Earning Analysis:
+Crypto/NFT Focus: Strong crypto/NFT earning focus - primary motivation for GameFi engagement
+
+=================================================================
+INTERPRETATION GUIDELINES
+=================================================================
+Cronbach's Alpha Interpretation:
+• α ≥ 0.9  : Excellent reliability
+• α ≥ 0.8  : Good reliability
+• α ≥ 0.7  : Acceptable reliability
+• α ≥ 0.6  : Questionable reliability
+• α < 0.6  : Poor reliability
+
+Corrected Item-Total Correlations:
+• r ≥ 0.3  : Good item discrimination
+• r < 0.3  : Consider removing item
+
+Economic Motivation Scale Interpretation:
+• Mean ≥ 4.0 : Strong economic motivation (primarily financial focus)
+• Mean 3.5-3.9 : Moderate-high economic motivation (significant financial focus)
+• Mean 3.0-3.4 : Moderate economic motivation (balanced financial-gaming)
+• Mean < 3.0 : Weak economic motivation (gaming-focused)
+
+EM Components:
+• EM1: Primary crypto/NFT motivation (earning as main driver)
+• EM2: Financial reward dependency (sensitivity to reward changes)
+• EM3: Financial priority over gameplay (extrinsic vs intrinsic balance)
+
+GameFi Economic Research Implications:
+• High EM scores indicate extrinsically motivated users
+• EM2 shows platform loyalty sensitivity to reward structures
+• EM3 reveals user value prioritization (financial vs gaming)
+• Strong economic motivation requires sustainable reward systems
+• Low economic motivation suggests intrinsic gaming appeal
+• Economic segmentation helps target different user motivations
+• High economic dependency may predict churn if rewards decrease
+
+Process finished with exit code 0

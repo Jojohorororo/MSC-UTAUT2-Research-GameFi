@@ -1,0 +1,54 @@
+\MSC UTAUT2\12-Regulatory-Compliance-Risks (RC)\regulatory-compliance-(RC)-question1.py" 
+Could not find platform independent libraries <prefix>
+TESTING CLEAN SURVEY ANALYSIS CODE
+==================================================
+ANALYSIS: Unclear regulations around cryptocurrency and NFTs make me hesitant to participate in GameFi.
+============================================================
+
+RESULTS:
+Mean: 3.39
+SD: 1.32
+Total Responses: 516
+
+Response Distribution:
+  1 (Strongly Disagree): 50 responses (9.7%)
+  2 (Disagree): 91 responses (17.6%)
+  3 (Neutral): 128 responses (24.8%)
+  4 (Agree): 100 responses (19.4%)
+  5 (Strongly Agree): 147 responses (28.5%)
+
+SUMMARY:
+  Total Disagree: 141 (27.3%)
+  Neutral: 128 (24.8%)
+  Total Agree: 247 (47.9%)
+
+INTERPRETATION:
+SLIGHTLY POSITIVE - Mixed feelings, slightly above neutral
+
+CREATING VISUALIZATIONS...
+============================================================
+
+1. Basic Response Distribution Chart
+
+2. Distribution Curve/Histogram
+Distribution Analysis:
+   • Skewness: -0.259 (0 = symmetric, <0 = left-skewed, >0 = right-skewed)
+   • Kurtosis: -1.098 (0 = normal, >0 = peaked, <0 = flat)
+   • Normality Test (Shapiro-Wilk): p = 0.0000
+     ** Data may not be normally distributed (p ≤ 0.05)
+
+3. Box Plot Analysis (FIXED - No More Overlapping!)
+Box Plot Insights:
+   ** Mean > Median (3.39 > 3.00): Right-skewed (more high scores)
+   • IQR = 3.00: High variability - wide range of opinions
+   • 50% of responses fall between 2.00 and 5.00
+   • Distribution shape: right-skewed
+   ** No outliers detected - all responses within expected range
+
+All visualizations created successfully!
+
+Analysis Complete
+Quick Summary: SLIGHTLY POSITIVE - Mixed feelings, slightly above neutral
+Mean: 3.39 | SD: 1.32
+
+Process finished with exit code 0

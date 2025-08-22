@@ -1,0 +1,161 @@
+\MSC UTAUT2\Cronbach's Alpha\11.Cronbach's Alpha Trust-Technology-(TT)-GameFi-Specific Extensions.py" 
+Could not find platform independent libraries <prefix>
+=================================================================
+CRONBACH'S ALPHA ANALYSIS - TRUST IN TECHNOLOGY (TT)
+GameFi-Specific Extensions
+=================================================================
+Loading data...
+Current directory: C:\Users\Velze\PyCharmMiscProject\Users\Velze\MSC UTAUT2\Cronbach's Alpha
+Files in current directory:
+  📊 behavioralintention BI.xlsx
+  📊 economicMotivation EM GameFi Specific Extensions.xlsx
+  📊 effort expectancy (EE).xlsx
+  📊 facilitationconditions FC.xlsx
+  📊 habit HB.xlsx
+  📊 hedonisticmotivation HM.xlsx
+  📊 performance expect PE.xlsx
+  📊 pricevalue PV.xlsx
+  📊 RiskPerception RP Gamefi Specific Extensions.xlsx
+  📊 socialinfluence SI.xlsx
+  📊 Trust Technology TT Gamefi Specific Extensions.xlsx
+✓ Data loaded successfully from 'Trust Technology TT Gamefi Specific Extensions.xlsx': 516 participants
+✓ Found 3 Trust in Technology items
+
+Trust in Technology Items (GameFi-Specific Extensions):
+TT1: I trust the blockchain technology and smart contracts that power GameFi platforms
+TT2: I feel confident that my digital assets in GameFi are secure and truly owned by me
+TT3: I believe GameFi platform developers are generally trustworthy and transparent
+
+Original response distribution:
+TT1: {'Strongly Agree': 248, 'Agree': 109, 'Neither Agree/Disagree': 62, 'Strongly Disagree': 53, 'Disagree': 44}
+TT2: {'Strongly Agree': 149, 'Agree': 144, 'Neither Agree/Disagree': 97, 'Strongly Disagree': 63, 'Disagree': 63}
+TT3: {'Strongly Disagree': 126, 'Strongly Agree': 108, 'Disagree': 99, 'Agree': 97, 'Neither Agree/Disagree': 86}
+
+Converting responses to numeric scale (1-5)...
+✓ Final dataset: 516 complete responses
+
+=================================================================
+DESCRIPTIVE STATISTICS
+=================================================================
+           TT1      TT2      TT3
+count  516.000  516.000  516.000
+mean     3.882    3.490    2.926
+std      1.362    1.344    1.481
+min      1.000    1.000    1.000
+25%      3.000    3.000    2.000
+50%      4.000    4.000    3.000
+75%      5.000    5.000    4.000
+max      5.000    5.000    5.000
+
+=================================================================
+RELIABILITY ANALYSIS RESULTS
+=================================================================
+Cronbach's Alpha: 0.8087
+Reliability Level: Good
+
+Number of Items: 3
+Number of Cases: 516
+
+Item   Corrected Item-Total Cronbach's α if
+       Correlation          Item Deleted   
+---------------------------------------------
+TT1             0.6271          0.7684
+TT2             0.8114          0.5778
+TT3             0.5538          0.8504
+
+=================================================================
+ITEM ANALYSIS
+=================================================================
+Item   Mean     Std Dev    Variance  
+-----------------------------------
+TT1     3.882    1.362    1.856
+TT2     3.490    1.344    1.808
+TT3     2.926    1.481    2.193
+
+=================================================================
+TRUST IN TECHNOLOGY SCALE EVALUATION
+=================================================================
+Overall Trust in Technology Mean: 3.433
+Interpretation: Moderate trust in technology (Some confidence)
+
+Trust in Technology Breakdown:
+TT1 (Blockchain/smart contract trust): 3.882
+TT2 (Digital asset security confidence): 3.490
+TT3 (Developer trustworthiness): 2.926
+
+Trust in Technology Analysis:
+Highest Trust Aspect: TT1 (M = 3.882)
+Lowest Trust Aspect: TT3 (M = 2.926)
+
+Trust Dimension Analysis:
+Technology Trust (Blockchain/Smart Contracts): 3.882
+Security Confidence (Digital Assets): 3.490
+Developer Trust (Platform Credibility): 2.926
+
+Trust Profile Analysis:
+Key Insight: Technology trust exceeds human/platform trust (tech > people)
+
+Trust Barrier Assessment:
+Trust Adoption Support: MODERATE - Some trust concerns may limit adoption
+
+Trust Segmentation:
+High Trust (≥4.0): 223 (43.2%)
+Moderate Trust (3.0-3.9): 169 (32.8%)
+Low Trust (<3.0): 124 (24.0%)
+
+Trust vs Risk Perception Analysis:
+Note: Compare these results with Risk Perception (RP) findings:
+- RP Overall Mean: 4.016 (High risk perception)
+- RP2 (Security vulnerabilities): 4.151 (Highest risk concern)
+- TT Overall Mean: 3.433
+- TT2 (Digital asset security confidence): 3.490
+Trust-Risk Profile: Moderate trust and high risk perception - Mixed confidence signals
+
+Technology Adoption Readiness:
+Blockchain Readiness: Moderate blockchain/smart contract confidence - good adoption potential
+
+Security Confidence Analysis:
+Security Trust: Some digital asset security concerns - matches high security risk perception
+
+Developer Trust Implications:
+Platform Credibility: Low developer trust - significant credibility building required
+
+Trust Building Strategy Analysis:
+Priority Strategy: Focus on developer transparency and platform governance
+
+=================================================================
+INTERPRETATION GUIDELINES
+=================================================================
+Cronbach's Alpha Interpretation:
+• α ≥ 0.9  : Excellent reliability
+• α ≥ 0.8  : Good reliability
+• α ≥ 0.7  : Acceptable reliability
+• α ≥ 0.6  : Questionable reliability
+• α < 0.6  : Poor reliability
+
+Corrected Item-Total Correlations:
+• r ≥ 0.3  : Good item discrimination
+• r < 0.3  : Consider removing item
+
+Trust in Technology Scale Interpretation:
+• Mean ≥ 4.0 : High trust (strong confidence in GameFi technology)
+• Mean 3.5-3.9 : Moderate-high trust (good confidence levels)
+• Mean 3.0-3.4 : Moderate trust (some confidence)
+• Mean < 3.0 : Low trust (limited confidence)
+
+TT Components:
+• TT1: Technology trust (blockchain/smart contract confidence)
+• TT2: Security confidence (digital asset ownership/security trust)
+• TT3: Developer trust (platform credibility and transparency)
+
+GameFi Trust Research Implications:
+• High TT scores indicate technology confidence supports adoption
+• TT1 shows blockchain/smart contract acceptance levels
+• TT2 reveals digital asset security confidence vs risk perception
+• TT3 indicates developer/platform credibility perceptions
+• Trust-Risk comparison reveals confidence vs concern balance
+• Low trust dimensions guide targeted confidence building strategies
+• Technology trust vs human trust patterns inform platform design
+• Security confidence analysis guides security communication strategies
+
+Process finished with exit code 0

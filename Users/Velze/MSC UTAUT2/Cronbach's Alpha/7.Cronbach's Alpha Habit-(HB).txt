@@ -1,0 +1,143 @@
+\MSC UTAUT2\Cronbach's Alpha\7.Cronbach's Alpha Habit-(HB).py" 
+Could not find platform independent libraries <prefix>
+==================================================
+CRONBACH'S ALPHA ANALYSIS - HABIT (HB)
+==================================================
+Loading data...
+Current directory: C:\Users\Velze\PyCharmMiscProject\Users\Velze\MSC UTAUT2\Cronbach's Alpha
+Files in current directory:
+  📊 effort expectancy (EE).xlsx
+  📊 facilitationconditions FC.xlsx
+  📊 habit HB.xlsx
+  📊 hedonisticmotivation HM.xlsx
+  📊 performance expect PE.xlsx
+  📊 pricevalue PV.xlsx
+  📊 socialinfluence SI.xlsx
+✓ Data loaded successfully from 'habit HB.xlsx': 516 participants
+✓ Found 4 Habit items
+
+Habit Items:
+HB1: Using GameFi platforms has become a habit for me
+HB2: Playing GameFi games is part of my regular routine
+HB3: Using GameFi platforms has become a regular part of my daily/weekly schedule
+HB4: Using GameFi has become natural to me in my gaming routine
+
+Original response distribution:
+HB1: {'Agree': 210, 'Strongly Agree': 183, 'Neither Agree/Disagree': 84, 'Disagree': 22, 'Strongly Disagree': 17}
+HB2: {'Agree': 211, 'Strongly Agree': 175, 'Neither Agree/Disagree': 86, 'Disagree': 28, 'Strongly Disagree': 16}
+HB3: {'Agree': 202, 'Strongly Agree': 184, 'Neither Agree/Disagree': 85, 'Disagree': 24, 'Strongly Disagree': 21}
+HB4: {'Agree': 165, 'Strongly Agree': 165, 'Neither Agree/Disagree': 101, 'Disagree': 58, 'Strongly Disagree': 27}
+
+Converting responses to numeric scale (1-5)...
+✓ Final dataset: 516 complete responses
+
+==================================================
+DESCRIPTIVE STATISTICS
+==================================================
+           HB1      HB2      HB3      HB4
+count  516.000  516.000  516.000  516.000
+mean     4.008    3.971    3.977    3.742
+std      0.993    1.002    1.037    1.171
+min      1.000    1.000    1.000    1.000
+25%      4.000    3.000    3.000    3.000
+50%      4.000    4.000    4.000    4.000
+75%      5.000    5.000    5.000    5.000
+max      5.000    5.000    5.000    5.000
+
+==================================================
+RELIABILITY ANALYSIS RESULTS
+==================================================
+Cronbach's Alpha: 0.9236
+Reliability Level: Excellent
+
+Number of Items: 4
+Number of Cases: 516
+
+Item   Corrected Item-Total Cronbach's α if
+       Correlation          Item Deleted   
+---------------------------------------------
+HB1             0.8475          0.8934
+HB2             0.8504          0.8922
+HB3             0.8373          0.8958
+HB4             0.7728          0.9223
+
+==================================================
+ITEM ANALYSIS
+==================================================
+Item   Mean     Std Dev    Variance  
+-----------------------------------
+HB1     4.008    0.993    0.986
+HB2     3.971    1.002    1.003
+HB3     3.977    1.037    1.075
+HB4     3.742    1.171    1.372
+
+==================================================
+HABIT SCALE EVALUATION
+==================================================
+Overall Habit Mean: 3.924
+Interpretation: Moderate habit formation (GameFi use becoming routine)
+
+Habit Breakdown:
+HB1 (General habit formation): 4.008
+HB2 (Routine integration): 3.971
+HB3 (Schedule regularity): 3.977
+HB4 (Natural gaming integration): 3.742
+
+Habit Formation Analysis:
+Strongest Habit Aspect: HB1 (M = 4.008)
+Weakest Habit Aspect: HB4 (M = 3.742)
+
+Habit Dimension Analysis:
+General Habit Formation: 4.008
+Routine Integration: 3.971
+Schedule Regularity: 3.977
+Natural Gaming Integration: 3.742
+
+Habit Development Profile:
+Key Insight: Scheduled habit formation stronger than spontaneous routine
+
+Automaticity Assessment:
+Automaticity Level: Moderate automaticity - GameFi use becoming less effortful
+
+Habit-Based Adoption Analysis:
+Habit Adoption Support: LOW - Strong habits support continued GameFi adoption
+
+Behavioral Psychology Analysis:
+Strong Habit Users: 332/516 (64.3%)
+Psychology Insight: Significant portion shows strong habit formation - indicates sustainable adoption
+
+==================================================
+INTERPRETATION GUIDELINES
+==================================================
+Cronbach's Alpha Interpretation:
+• α ≥ 0.9  : Excellent reliability
+• α ≥ 0.8  : Good reliability
+• α ≥ 0.7  : Acceptable reliability
+• α ≥ 0.6  : Questionable reliability
+• α < 0.6  : Poor reliability
+
+Corrected Item-Total Correlations:
+• r ≥ 0.3  : Good item discrimination
+• r < 0.3  : Consider removing item
+
+Habit Scale Interpretation:
+• Mean ≥ 4.0 : Strong habits (automatic/routine behavior)
+• Mean 3.5-3.9 : Moderate habits (developing automaticity)
+• Mean 3.0-3.4 : Developing habits (some routine behavior)
+• Mean < 3.0 : Weak habits (effortful/conscious behavior)
+
+HB Components:
+• HB1: General habit formation (overall automaticity)
+• HB2: Routine integration (regular behavior patterns)
+• HB3: Schedule regularity (temporal behavior consistency)
+• HB4: Natural gaming integration (contextual automaticity)
+
+GameFi Habit Research Implications:
+• Strong habits indicate sustainable long-term adoption
+• Weak habits may require intervention for continued use
+• Habit formation varies: contextual > routine > scheduled
+• Natural gaming integration shows behavioral stickiness
+• High habit scores predict lower churn/abandonment rates
+• Automaticity reduces cognitive effort and increases retention
+
+Process finished with exit code 0

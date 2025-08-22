@@ -1,0 +1,119 @@
+\MSC UTAUT2\Cronbach's Alpha\6.Cronbach's Alpha Price-Value-(PV).py" 
+Could not find platform independent libraries <prefix>
+=======================================================
+CRONBACH'S ALPHA ANALYSIS - PRICE VALUE (PV)
+=======================================================
+Loading data...
+Current directory: C:\Users\Velze\PyCharmMiscProject\Users\Velze\MSC UTAUT2\Cronbach's Alpha
+Files in current directory:
+  📊 effort expectancy (EE).xlsx
+  📊 facilitationconditions FC.xlsx
+  📊 hedonisticmotivation HM.xlsx
+  📊 performance expect PE.xlsx
+  📊 pricevalue PV.xlsx
+  📊 socialinfluence SI.xlsx
+✓ Data loaded successfully from 'pricevalue PV.xlsx': 516 participants
+✓ Found 3 Price Value items
+
+Price Value Items:
+PV1: GameFi platforms are reasonably priced considering their benefits
+PV2: The financial investment required (gas fees, NFT purchases, etc.) provides good value for money
+PV3: The potential financial returns from GameFi platforms justify the initial costs of participation
+
+Original response distribution:
+PV1: {'Agree': 223, 'Strongly Agree': 160, 'Neither Agree/Disagree': 97, 'Disagree': 25, 'Strongly Disagree': 11}
+PV2: {'Agree': 231, 'Strongly Agree': 154, 'Neither Agree/Disagree': 87, 'Disagree': 28, 'Strongly Disagree': 16}
+PV3: {'Strongly Agree': 238, 'Agree': 168, 'Neither Agree/Disagree': 82, 'Disagree': 15, 'Strongly Disagree': 13}
+
+Converting responses to numeric scale (1-5)...
+✓ Final dataset: 516 complete responses
+
+=======================================================
+DESCRIPTIVE STATISTICS
+=======================================================
+           PV1      PV2      PV3
+count  516.000  516.000  516.000
+mean     3.961    3.928    4.169
+std      0.940    0.980    0.968
+min      1.000    1.000    1.000
+25%      3.000    3.000    4.000
+50%      4.000    4.000    4.000
+75%      5.000    5.000    5.000
+max      5.000    5.000    5.000
+
+=======================================================
+RELIABILITY ANALYSIS RESULTS
+=======================================================
+Cronbach's Alpha: 0.8867
+Reliability Level: Good
+
+Number of Items: 3
+Number of Cases: 516
+
+Item   Corrected Item-Total Cronbach's α if
+       Correlation          Item Deleted   
+---------------------------------------------
+PV1             0.8017          0.8198
+PV2             0.7864          0.8327
+PV3             0.7499          0.8646
+
+=======================================================
+ITEM ANALYSIS
+=======================================================
+Item   Mean     Std Dev    Variance  
+-----------------------------------
+PV1     3.961    0.940    0.884
+PV2     3.928    0.980    0.960
+PV3     4.169    0.968    0.937
+
+=======================================================
+PRICE VALUE SCALE EVALUATION
+=======================================================
+Overall Price Value Mean: 4.019
+Interpretation: High price value perception (GameFi seen as good value)
+
+Price Value Breakdown:
+PV1 (Reasonable pricing vs benefits): 3.961
+PV2 (Investment value for money): 3.928
+PV3 (ROI justification): 4.169
+
+Economic Perception Analysis:
+Strongest Price Value Aspect: PV3 (M = 4.169)
+Weakest Price Value Aspect: PV2 (M = 3.928)
+
+Economic Adoption Analysis:
+Economic Barrier Level: LOW - Price value is generally perceived as positive
+
+Value Perception Insights:
+Key Insight: Strong ROI confidence but concerns about immediate value for money
+
+=======================================================
+INTERPRETATION GUIDELINES
+=======================================================
+Cronbach's Alpha Interpretation:
+• α ≥ 0.9  : Excellent reliability
+• α ≥ 0.8  : Good reliability
+• α ≥ 0.7  : Acceptable reliability
+• α ≥ 0.6  : Questionable reliability
+• α < 0.6  : Poor reliability
+
+Corrected Item-Total Correlations:
+• r ≥ 0.3  : Good item discrimination
+• r < 0.3  : Consider removing item
+
+Price Value Scale Interpretation:
+• Mean ≥ 4.0 : High price value (good value perception)
+• Mean 3.0-3.9 : Moderate price value (neutral to positive)
+• Mean < 3.0 : Low price value (poor value perception)
+
+PV Components:
+• PV1: General pricing reasonableness (cost vs benefits)
+• PV2: Investment value (value for money assessment)
+• PV3: ROI expectations (returns justify costs)
+
+Economic Research Implications:
+• Low PV scores indicate price/cost barriers to adoption
+• High PV scores suggest economic factors support adoption
+• Compare PV components to identify specific economic concerns
+
+Process finished with exit code 0

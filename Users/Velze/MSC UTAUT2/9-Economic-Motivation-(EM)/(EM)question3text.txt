@@ -1,0 +1,54 @@
+\MSC UTAUT2\9-Economic-Motivation-(EM)\economic-motivation-(EM)-question3.py" 
+Could not find platform independent libraries <prefix>
+TESTING CLEAN SURVEY ANALYSIS CODE
+==================================================
+ANALYSIS: The financial reward aspect is more important to me than the gameplay in GameFi platforms.
+============================================================
+
+RESULTS:
+Mean: 4.16
+SD: 1.05
+Total Responses: 516
+
+Response Distribution:
+  1 (Strongly Disagree): 15 responses (2.9%)
+  2 (Disagree): 28 responses (5.4%)
+  3 (Neutral): 74 responses (14.3%)
+  4 (Agree): 139 responses (26.9%)
+  5 (Strongly Agree): 260 responses (50.4%)
+
+SUMMARY:
+  Total Disagree: 43 (8.3%)
+  Neutral: 74 (14.3%)
+  Total Agree: 399 (77.3%)
+
+INTERPRETATION:
+STRONGLY AGREE - High agreement
+
+CREATING VISUALIZATIONS...
+============================================================
+
+1. Basic Response Distribution Chart
+
+2. Distribution Curve/Histogram
+Distribution Analysis:
+   • Skewness: -1.221 (0 = symmetric, <0 = left-skewed, >0 = right-skewed)
+   • Kurtosis: 0.824 (0 = normal, >0 = peaked, <0 = flat)
+   • Normality Test (Shapiro-Wilk): p = 0.0000
+     ** Data may not be normally distributed (p ≤ 0.05)
+
+3. Box Plot Analysis (FIXED - No More Overlapping!)
+Box Plot Insights:
+   ** Mean < Median (4.16 < 5.00): Left-skewed (more low scores)
+   • IQR = 1.00: Moderate variability - reasonable spread in responses
+   • 50% of responses fall between 4.00 and 5.00
+   • Distribution shape: left-skewed
+   ** Potential outliers detected: 43 responses outside normal range
+
+All visualizations created successfully!
+
+Analysis Complete
+Quick Summary: STRONGLY AGREE - High agreement
+Mean: 4.16 | SD: 1.05
+
+Process finished with exit code 0

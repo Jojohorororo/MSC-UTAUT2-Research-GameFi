@@ -1,0 +1,54 @@
+\MSC UTAUT2\11-Trust-in-Technology-(TT)\trust-in-technology-(TT)-question1.py" 
+Could not find platform independent libraries <prefix>
+TESTING CLEAN SURVEY ANALYSIS CODE
+==================================================
+ANALYSIS: I trust the blockchain technology and smart contracts that power GameFi platforms.
+============================================================
+
+RESULTS:
+Mean: 3.88
+SD: 1.36
+Total Responses: 516
+
+Response Distribution:
+  1 (Strongly Disagree): 53 responses (10.3%)
+  2 (Disagree): 44 responses (8.5%)
+  3 (Neutral): 62 responses (12.0%)
+  4 (Agree): 109 responses (21.1%)
+  5 (Strongly Agree): 248 responses (48.1%)
+
+SUMMARY:
+  Total Disagree: 97 (18.8%)
+  Neutral: 62 (12.0%)
+  Total Agree: 357 (69.2%)
+
+INTERPRETATION:
+MOSTLY AGREE - People generally agree
+
+CREATING VISUALIZATIONS...
+============================================================
+
+1. Basic Response Distribution Chart
+
+2. Distribution Curve/Histogram
+Distribution Analysis:
+   • Skewness: -0.966 (0 = symmetric, <0 = left-skewed, >0 = right-skewed)
+   • Kurtosis: -0.384 (0 = normal, >0 = peaked, <0 = flat)
+   • Normality Test (Shapiro-Wilk): p = 0.0000
+     ** Data may not be normally distributed (p ≤ 0.05)
+
+3. Box Plot Analysis (FIXED - No More Overlapping!)
+Box Plot Insights:
+   ** Mean < Median (3.88 < 4.00): Left-skewed (more low scores)
+   • IQR = 2.00: High variability - wide range of opinions
+   • 50% of responses fall between 3.00 and 5.00
+   • Distribution shape: left-skewed
+   ** No outliers detected - all responses within expected range
+
+All visualizations created successfully!
+
+Analysis Complete
+Quick Summary: MOSTLY AGREE - People generally agree
+Mean: 3.88 | SD: 1.36
+
+Process finished with exit code 0

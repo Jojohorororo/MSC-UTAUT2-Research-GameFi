@@ -1,0 +1,54 @@
+\MSC UTAUT2\11-Trust-in-Technology-(TT)\trust-in-technology-(TT)-question3.py" 
+Could not find platform independent libraries <prefix>
+TESTING CLEAN SURVEY ANALYSIS CODE
+==================================================
+ANALYSIS: I believe GameFi platform developers are generally trustworthy and transparent.
+============================================================
+
+RESULTS:
+Mean: 2.93
+SD: 1.48
+Total Responses: 516
+
+Response Distribution:
+  1 (Strongly Disagree): 126 responses (24.4%)
+  2 (Disagree): 99 responses (19.2%)
+  3 (Neutral): 86 responses (16.7%)
+  4 (Agree): 97 responses (18.8%)
+  5 (Strongly Agree): 108 responses (20.9%)
+
+SUMMARY:
+  Total Disagree: 225 (43.6%)
+  Neutral: 86 (16.7%)
+  Total Agree: 205 (39.7%)
+
+INTERPRETATION:
+LEAN DISAGREE - People tend to disagree
+
+CREATING VISUALIZATIONS...
+============================================================
+
+1. Basic Response Distribution Chart
+
+2. Distribution Curve/Histogram
+Distribution Analysis:
+   • Skewness: 0.062 (0 = symmetric, <0 = left-skewed, >0 = right-skewed)
+   • Kurtosis: -1.408 (0 = normal, >0 = peaked, <0 = flat)
+   • Normality Test (Shapiro-Wilk): p = 0.0000
+     ** Data may not be normally distributed (p ≤ 0.05)
+
+3. Box Plot Analysis (FIXED - No More Overlapping!)
+Box Plot Insights:
+   ** Mean ≈ Median (2.93 ≈ 3.00): Symmetric distribution
+   • IQR = 2.00: High variability - wide range of opinions
+   • 50% of responses fall between 2.00 and 4.00
+   • Distribution shape: symmetric
+   ** No outliers detected - all responses within expected range
+
+All visualizations created successfully!
+
+Analysis Complete
+Quick Summary: LEAN DISAGREE - People tend to disagree
+Mean: 2.93 | SD: 1.48
+
+Process finished with exit code 0

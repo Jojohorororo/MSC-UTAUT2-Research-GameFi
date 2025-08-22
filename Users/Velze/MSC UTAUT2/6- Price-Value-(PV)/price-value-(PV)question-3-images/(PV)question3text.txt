@@ -1,0 +1,54 @@
+\MSC UTAUT2\6- Price-Value-(PV)\price-value-(PV)-question3.py" 
+Could not find platform independent libraries <prefix>
+TESTING CLEAN SURVEY ANALYSIS CODE
+==================================================
+ANALYSIS: The potential financial returns from GameFi platforms justify the initial costs of participation.
+============================================================
+
+RESULTS:
+Mean: 4.17
+SD: 0.97
+Total Responses: 516
+
+Response Distribution:
+  1 (Strongly Disagree): 13 responses (2.5%)
+  2 (Disagree): 15 responses (2.9%)
+  3 (Neutral): 82 responses (15.9%)
+  4 (Agree): 168 responses (32.6%)
+  5 (Strongly Agree): 238 responses (46.1%)
+
+SUMMARY:
+  Total Disagree: 28 (5.4%)
+  Neutral: 82 (15.9%)
+  Total Agree: 406 (78.7%)
+
+INTERPRETATION:
+STRONGLY AGREE - High agreement
+
+CREATING VISUALIZATIONS...
+============================================================
+
+1. Basic Response Distribution Chart
+
+2. Distribution Curve/Histogram
+Distribution Analysis:
+   • Skewness: -1.204 (0 = symmetric, <0 = left-skewed, >0 = right-skewed)
+   • Kurtosis: 1.234 (0 = normal, >0 = peaked, <0 = flat)
+   • Normality Test (Shapiro-Wilk): p = 0.0000
+     ** Data may not be normally distributed (p ≤ 0.05)
+
+3. Box Plot Analysis (FIXED - No More Overlapping!)
+Box Plot Insights:
+   ** Mean > Median (4.17 > 4.00): Right-skewed (more high scores)
+   • IQR = 1.00: Moderate variability - reasonable spread in responses
+   • 50% of responses fall between 4.00 and 5.00
+   • Distribution shape: right-skewed
+   ** Potential outliers detected: 28 responses outside normal range
+
+All visualizations created successfully!
+
+Analysis Complete
+Quick Summary: STRONGLY AGREE - High agreement
+Mean: 4.17 | SD: 0.97
+
+Process finished with exit code 0

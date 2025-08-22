@@ -1,0 +1,80 @@
+\MSC UTAUT2\2-Effort-Expectancy-(EE)\Cronbach's Alpha effort-expectancy-(EE).py" 
+Could not find platform independent libraries <prefix>
+============================================================
+CRONBACH'S ALPHA ANALYSIS - EFFORT EXPECTANCY (EE)
+============================================================
+Loading data...
+Current directory: C:\Users\Velze\PyCharmMiscProject\Users\Velze\MSC UTAUT2\2-Effort-Expectancy-(EE)
+Files in current directory:
+  📊 effort expectancy (EE).xlsx
+✓ Data loaded successfully from 'effort expectancy (EE).xlsx': 516 participants
+✓ Found 4 Effort Expectancy items
+
+Original response distribution:
+EE1: {'Agree': 142, 'Disagree': 115, 'Strongly Agree': 98, 'Neither Agree/Disagree': 84, 'Strongly Disagree': 77}
+EE2: {'Agree': 157, 'Disagree': 111, 'Neither Agree/Disagree': 90, 'Strongly Agree': 90, 'Strongly Disagree': 68}
+EE3: {'Agree': 164, 'Neither Agree/Disagree': 110, 'Strongly Agree': 109, 'Disagree': 96, 'Strongly Disagree': 37}
+EE4: {'Agree': 206, 'Strongly Agree': 139, 'Neither Agree/Disagree': 114, 'Disagree': 35, 'Strongly Disagree': 22}
+
+Converting responses to numeric scale (1-5)...
+✓ Final dataset: 516 complete responses
+
+============================================================
+DESCRIPTIVE STATISTICS
+============================================================
+           EE1      EE2      EE3      EE4
+count  516.000  516.000  516.000  516.000
+mean     3.134    3.174    3.411    3.785
+std      1.357    1.310    1.212    1.049
+min      1.000    1.000    1.000    1.000
+25%      2.000    2.000    2.000    3.000
+50%      3.000    3.000    4.000    4.000
+75%      4.000    4.000    4.000    5.000
+max      5.000    5.000    5.000    5.000
+
+============================================================
+RELIABILITY ANALYSIS RESULTS
+============================================================
+Cronbach's Alpha: 0.8862
+Reliability Level: Good
+
+Number of Items: 4
+Number of Cases: 516
+
+Item   Corrected Item-Total Cronbach's α if
+       Correlation          Item Deleted   
+---------------------------------------------
+EE1             0.8235          0.8254
+EE2             0.8156          0.8281
+EE3             0.8322          0.8230
+EE4             0.5558          0.9187
+
+============================================================
+ITEM ANALYSIS
+============================================================
+Item   Mean     Std Dev    Variance  
+-----------------------------------
+EE1     3.134    1.357    1.840
+EE2     3.174    1.310    1.717
+EE3     3.411    1.212    1.470
+EE4     3.785    1.049    1.101
+
+============================================================
+INTERPRETATION GUIDELINES
+============================================================
+Cronbach's Alpha Interpretation:
+• α ≥ 0.9  : Excellent reliability
+• α ≥ 0.8  : Good reliability
+• α ≥ 0.7  : Acceptable reliability
+• α ≥ 0.6  : Questionable reliability
+• α < 0.6  : Poor reliability
+
+Corrected Item-Total Correlations:
+• r ≥ 0.3  : Good item discrimination
+• r < 0.3  : Consider removing item
+
+Alpha if Item Deleted:
+• If α increases substantially when item deleted,
+  consider removing that item to improve reliability
+
+Process finished with exit code 0

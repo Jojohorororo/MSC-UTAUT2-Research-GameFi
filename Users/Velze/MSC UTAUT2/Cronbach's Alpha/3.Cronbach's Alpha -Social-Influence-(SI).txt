@@ -1,0 +1,96 @@
+C:\Users\Velze\PyCharmMiscProject\.venv\Scripts\python.exe "C:\Users\Velze\PyCharmMiscProject\Users\Velze\MSC UTAUT2\Cronbach's Alpha\Cronbach's Alpha Social Influence-(SI).py" 
+Could not find platform independent libraries <prefix>
+============================================================
+CRONBACH'S ALPHA ANALYSIS - SOCIAL INFLUENCE (SI)
+============================================================
+Loading data...
+Current directory: C:\Users\Velze\PyCharmMiscProject\Users\Velze\MSC UTAUT2\Cronbach's Alpha
+Files in current directory:
+  📊 effort expectancy (EE).xlsx
+  📊 performance expect PE.xlsx
+  📊 socialinfluence SI.xlsx
+✓ Data loaded successfully from 'socialinfluence SI.xlsx': 516 participants
+✓ Found 3 Social Influence items
+
+Social Influence Items:
+SI1: People who influence my behavior think that I should use GameFi platforms
+SI2: My friends and gaming community encourage me to participate in play-to-earn games
+SI3: Popular content creators and influencers I follow promote the use of GameFi platforms
+
+Original response distribution:
+SI1: {'Agree': 238, 'Neither Agree/Disagree': 117, 'Strongly Agree': 117, 'Disagree': 27, 'Strongly Disagree': 17}
+SI2: {'Agree': 241, 'Strongly Agree': 131, 'Neither Agree/Disagree': 85, 'Disagree': 45, 'Strongly Disagree': 14}
+SI3: {'Agree': 162, 'Neither Agree/Disagree': 130, 'Strongly Agree': 117, 'Strongly Disagree': 60, 'Disagree': 47}
+
+Converting responses to numeric scale (1-5)...
+✓ Final dataset: 516 complete responses
+
+============================================================
+DESCRIPTIVE STATISTICS
+============================================================
+           SI1      SI2      SI3
+count  516.000  516.000  516.000
+mean     3.797    3.833    3.444
+std      0.959    0.993    1.258
+min      1.000    1.000    1.000
+25%      3.000    3.000    3.000
+50%      4.000    4.000    4.000
+75%      4.000    5.000    4.000
+max      5.000    5.000    5.000
+
+============================================================
+RELIABILITY ANALYSIS RESULTS
+============================================================
+Cronbach's Alpha: 0.8038
+Reliability Level: Good
+
+Number of Items: 3
+Number of Cases: 516
+
+Item   Corrected Item-Total Cronbach's α if
+       Correlation          Item Deleted   
+---------------------------------------------
+SI1             0.7436          0.6523
+SI2             0.6778          0.7098
+SI3             0.5721          0.8498
+
+============================================================
+ITEM ANALYSIS
+============================================================
+Item   Mean     Std Dev    Variance  
+-----------------------------------
+SI1     3.797    0.959    0.920
+SI2     3.833    0.993    0.986
+SI3     3.444    1.258    1.583
+
+============================================================
+SOCIAL INFLUENCE SCALE EVALUATION
+============================================================
+Overall Social Influence Mean: 3.691
+Interpretation: Moderate social influence toward GameFi adoption
+
+Social Influence Sources Comparison:
+SI1 (General influencers): 3.797
+SI2 (Friends/gaming community): 3.833
+SI3 (Content creators/influencers): 3.444
+
+============================================================
+INTERPRETATION GUIDELINES
+============================================================
+Cronbach's Alpha Interpretation:
+• α ≥ 0.9  : Excellent reliability
+• α ≥ 0.8  : Good reliability
+• α ≥ 0.7  : Acceptable reliability
+• α ≥ 0.6  : Questionable reliability
+• α < 0.6  : Poor reliability
+
+Corrected Item-Total Correlations:
+• r ≥ 0.3  : Good item discrimination
+• r < 0.3  : Consider removing item
+
+Social Influence Scale Interpretation:
+• Mean ≥ 4.0 : High social influence
+• Mean 3.0-3.9 : Moderate social influence
+• Mean < 3.0 : Low social influence
+
+Process finished with exit code 0

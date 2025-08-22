@@ -1,0 +1,54 @@
+\MSC UTAUT2\11-Trust-in-Technology-(TT)\trust-in-technology-(TT)-question2.py" 
+Could not find platform independent libraries <prefix>
+TESTING CLEAN SURVEY ANALYSIS CODE
+==================================================
+ANALYSIS: I feel confident that my digital assets in GameFi are secure and truly owned by me.
+============================================================
+
+RESULTS:
+Mean: 3.49
+SD: 1.34
+Total Responses: 516
+
+Response Distribution:
+  1 (Strongly Disagree): 63 responses (12.2%)
+  2 (Disagree): 63 responses (12.2%)
+  3 (Neutral): 97 responses (18.8%)
+  4 (Agree): 144 responses (27.9%)
+  5 (Strongly Agree): 149 responses (28.9%)
+
+SUMMARY:
+  Total Disagree: 126 (24.4%)
+  Neutral: 97 (18.8%)
+  Total Agree: 293 (56.8%)
+
+INTERPRETATION:
+SLIGHTLY POSITIVE - Mixed feelings, slightly above neutral
+
+CREATING VISUALIZATIONS...
+============================================================
+
+1. Basic Response Distribution Chart
+
+2. Distribution Curve/Histogram
+Distribution Analysis:
+   • Skewness: -0.529 (0 = symmetric, <0 = left-skewed, >0 = right-skewed)
+   • Kurtosis: -0.902 (0 = normal, >0 = peaked, <0 = flat)
+   • Normality Test (Shapiro-Wilk): p = 0.0000
+     ** Data may not be normally distributed (p ≤ 0.05)
+
+3. Box Plot Analysis (FIXED - No More Overlapping!)
+Box Plot Insights:
+   ** Mean < Median (3.49 < 4.00): Left-skewed (more low scores)
+   • IQR = 2.00: High variability - wide range of opinions
+   • 50% of responses fall between 3.00 and 5.00
+   • Distribution shape: left-skewed
+   ** No outliers detected - all responses within expected range
+
+All visualizations created successfully!
+
+Analysis Complete
+Quick Summary: SLIGHTLY POSITIVE - Mixed feelings, slightly above neutral
+Mean: 3.49 | SD: 1.34
+
+Process finished with exit code 0

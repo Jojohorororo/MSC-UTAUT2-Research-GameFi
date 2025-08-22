@@ -1,0 +1,54 @@
+\MSC UTAUT2\2-Effort-Expectancy-(EE)\effort-expectancy-(EE)-question2.py" 
+Could not find platform independent libraries <prefix>
+TESTING CLEAN SURVEY ANALYSIS CODE
+==================================================
+ANALYSIS: My interaction with GameFi platforms is clear and understandable.
+============================================================
+
+RESULTS:
+Mean: 3.17
+SD: 1.31
+Total Responses: 516
+
+Response Distribution:
+  1 (Strongly Disagree): 68 responses (13.2%)
+  2 (Disagree): 111 responses (21.5%)
+  3 (Neutral): 90 responses (17.4%)
+  4 (Agree): 157 responses (30.4%)
+  5 (Strongly Agree): 90 responses (17.4%)
+
+SUMMARY:
+  Total Disagree: 179 (34.7%)
+  Neutral: 90 (17.4%)
+  Total Agree: 247 (47.9%)
+
+INTERPRETATION:
+SLIGHTLY POSITIVE - Mixed feelings, slightly above neutral
+
+CREATING VISUALIZATIONS...
+============================================================
+
+1. Basic Response Distribution Chart
+
+2. Distribution Curve/Histogram
+Distribution Analysis:
+   • Skewness: -0.210 (0 = symmetric, <0 = left-skewed, >0 = right-skewed)
+   • Kurtosis: -1.150 (0 = normal, >0 = peaked, <0 = flat)
+   • Normality Test (Shapiro-Wilk): p = 0.0000
+     ** Data may not be normally distributed (p ≤ 0.05)
+
+3. Box Plot Analysis (FIXED - No More Overlapping!)
+Box Plot Insights:
+   ** Mean > Median (3.17 > 3.00): Right-skewed (more high scores)
+   • IQR = 2.00: High variability - wide range of opinions
+   • 50% of responses fall between 2.00 and 4.00
+   • Distribution shape: right-skewed
+   ** No outliers detected - all responses within expected range
+
+All visualizations created successfully!
+
+Analysis Complete
+Quick Summary: SLIGHTLY POSITIVE - Mixed feelings, slightly above neutral
+Mean: 3.17 | SD: 1.31
+
+Process finished with exit code 0

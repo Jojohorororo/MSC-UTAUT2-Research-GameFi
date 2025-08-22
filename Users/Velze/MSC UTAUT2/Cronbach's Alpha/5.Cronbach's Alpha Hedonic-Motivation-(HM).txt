@@ -1,0 +1,121 @@
+\MSC UTAUT2\Cronbach's Alpha\5.Cronbach's Alpha Hedonic-Motivation-(HM).py" 
+Could not find platform independent libraries <prefix>
+============================================================
+CRONBACH'S ALPHA ANALYSIS - HEDONIC MOTIVATION (HM)
+============================================================
+Loading data...
+Current directory: C:\Users\Velze\PyCharmMiscProject\Users\Velze\MSC UTAUT2\Cronbach's Alpha
+Files in current directory:
+  📊 effort expectancy (EE).xlsx
+  📊 facilitationconditions FC.xlsx
+  📊 hedonisticmotivation HM.xlsx
+  📊 performance expect PE.xlsx
+  📊 socialinfluence SI.xlsx
+✓ Data loaded successfully from 'hedonisticmotivation HM.xlsx': 516 participants
+✓ Found 4 Hedonic Motivation items
+
+Hedonic Motivation Items:
+HM1: Using GameFi platforms is enjoyable
+HM2: I find playing GameFi games to be entertaining
+HM3: The gameplay elements in GameFi platforms are fun, independent of potential financial rewards
+HM4: Using GameFi platforms makes gaming more exciting for me
+
+Original response distribution:
+HM1: {'Agree': 225, 'Strongly Agree': 135, 'Neither Agree/Disagree': 117, 'Disagree': 25, 'Strongly Disagree': 14}
+HM2: {'Agree': 228, 'Strongly Agree': 132, 'Neither Agree/Disagree': 112, 'Disagree': 30, 'Strongly Disagree': 14}
+HM3: {'Agree': 195, 'Neither Agree/Disagree': 133, 'Strongly Agree': 128, 'Disagree': 36, 'Strongly Disagree': 24}
+HM4: {'Strongly Agree': 205, 'Agree': 176, 'Neither Agree/Disagree': 94, 'Disagree': 27, 'Strongly Disagree': 14}
+
+Converting responses to numeric scale (1-5)...
+✓ Final dataset: 516 complete responses
+
+============================================================
+DESCRIPTIVE STATISTICS
+============================================================
+           HM1      HM2      HM3      HM4
+count  516.000  516.000  516.000  516.000
+mean     3.857    3.841    3.711    4.029
+std      0.953    0.962    1.059    1.017
+min      1.000    1.000    1.000    1.000
+25%      3.000    3.000    3.000    3.000
+50%      4.000    4.000    4.000    4.000
+75%      5.000    5.000    4.000    5.000
+max      5.000    5.000    5.000    5.000
+
+============================================================
+RELIABILITY ANALYSIS RESULTS
+============================================================
+Cronbach's Alpha: 0.8898
+Reliability Level: Good
+
+Number of Items: 4
+Number of Cases: 516
+
+Item   Corrected Item-Total Cronbach's α if
+       Correlation          Item Deleted   
+---------------------------------------------
+HM1             0.8385          0.8291
+HM2             0.8442          0.8265
+HM3             0.7043          0.8802
+HM4             0.6611          0.8944
+
+============================================================
+ITEM ANALYSIS
+============================================================
+Item   Mean     Std Dev    Variance  
+-----------------------------------
+HM1     3.857    0.953    0.908
+HM2     3.841    0.962    0.926
+HM3     3.711    1.059    1.122
+HM4     4.029    1.017    1.034
+
+============================================================
+HEDONIC MOTIVATION SCALE EVALUATION
+============================================================
+Overall Hedonic Motivation Mean: 3.859
+Interpretation: Moderate hedonic motivation toward GameFi
+
+Hedonic Motivation Breakdown:
+HM1 (General enjoyment): 3.857
+HM2 (Entertainment value): 3.841
+HM3 (Intrinsic fun - independent of rewards): 3.711
+HM4 (Excitement enhancement): 4.029
+
+Intrinsic vs Extrinsic Motivation Analysis:
+Intrinsic Fun (HM3 - independent of rewards): 3.711
+General Hedonic Motivation (HM1,HM2,HM4): 3.909
+Interpretation: General enjoyment exceeds intrinsic fun motivation
+
+Strongest Hedonic Aspect: HM4 (M = 4.029)
+Weakest Hedonic Aspect: HM3 (M = 3.711)
+
+============================================================
+INTERPRETATION GUIDELINES
+============================================================
+Cronbach's Alpha Interpretation:
+• α ≥ 0.9  : Excellent reliability
+• α ≥ 0.8  : Good reliability
+• α ≥ 0.7  : Acceptable reliability
+• α ≥ 0.6  : Questionable reliability
+• α < 0.6  : Poor reliability
+
+Corrected Item-Total Correlations:
+• r ≥ 0.3  : Good item discrimination
+• r < 0.3  : Consider removing item
+
+Hedonic Motivation Scale Interpretation:
+• Mean ≥ 4.0 : High hedonic motivation
+• Mean 3.0-3.9 : Moderate hedonic motivation
+• Mean < 3.0 : Low hedonic motivation
+
+HM Components:
+• HM1: General enjoyment of GameFi platforms
+• HM2: Entertainment value of GameFi games
+• HM3: Intrinsic fun (independent of financial rewards)
+• HM4: Excitement enhancement through GameFi
+
+Research Note:
+• HM3 is particularly valuable for measuring intrinsic vs extrinsic motivation
+• Compare HM3 to other items to understand pure gaming enjoyment
+
+Process finished with exit code 0

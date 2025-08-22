@@ -1,0 +1,143 @@
+\MSC UTAUT2\Cronbach's Alpha\1.Cronbach's Alpha Performance-expectancy-(PE).py" 
+Could not find platform independent libraries <prefix>
+============================================================
+CRONBACH'S ALPHA ANALYSIS - PERFORMANCE EXPECTANCY (PE)
+============================================================
+Loading data...
+Current directory: C:\Users\Velze\PyCharmMiscProject\Users\Velze\MSC UTAUT2\Cronbach's Alpha
+Files in current directory:
+  📊 effort expectancy (EE).xlsx
+  📊 facilitationconditions FC.xlsx
+  📊 hedonisticmotivation HM.xlsx
+  📊 performance expect PE.xlsx
+  📊 pricevalue PV.xlsx
+  📊 socialinfluence SI.xlsx
+  📊 ~$performance expect PE.xlsx
+✓ Data loaded successfully from 'performance expect PE.xlsx': 516 participants
+✓ Found 5 Performance Expectancy items
+
+Performance Expectancy Items:
+PE1: Using GameFi platforms improves my ability to earn financial rewards through gaming
+PE2: GameFi platforms enhance my opportunities to own and trade digital assets (NFTs, tokens)
+PE3: Play-to-earn models in GameFi provide greater financial benefits compared to traditional gaming
+PE4: Using GameFi gives me greater ownership and control over my in-game assets
+PE5: Overall, I find GameFi platforms useful for achieving both gaming enjoyment and financial benefits
+
+Original response distribution:
+PE1: {'Agree': 210, 'Strongly Agree': 154, 'Neither Agree/Disagree': 120, 'Disagree': 19, 'Strongly Disagree': 13}
+PE2: {'Agree': 229, 'Strongly Agree': 145, 'Neither Agree/Disagree': 112, 'Disagree': 19, 'Strongly Disagree': 11}
+PE3: {'Agree': 207, 'Strongly Agree': 152, 'Neither Agree/Disagree': 124, 'Disagree': 20, 'Strongly Disagree': 13}
+PE4: {'Agree': 220, 'Strongly Agree': 150, 'Neither Agree/Disagree': 114, 'Disagree': 19, 'Strongly Disagree': 13}
+PE5: {'Agree': 208, 'Strongly Agree': 160, 'Neither Agree/Disagree': 114, 'Disagree': 20, 'Strongly Disagree': 14}
+
+Converting responses to numeric scale (1-5)...
+✓ Final dataset: 516 complete responses
+
+============================================================
+DESCRIPTIVE STATISTICS
+============================================================
+           PE1      PE2      PE3      PE4      PE5
+count  516.000  516.000  516.000  516.000  516.000
+mean     3.917    3.926    3.901    3.921    3.930
+std      0.949    0.913    0.953    0.939    0.963
+min      1.000    1.000    1.000    1.000    1.000
+25%      3.000    3.000    3.000    3.000    3.000
+50%      4.000    4.000    4.000    4.000    4.000
+75%      5.000    5.000    5.000    5.000    5.000
+max      5.000    5.000    5.000    5.000    5.000
+
+============================================================
+RELIABILITY ANALYSIS RESULTS
+============================================================
+Cronbach's Alpha: 0.9297
+Reliability Level: Excellent
+
+Number of Items: 5
+Number of Cases: 516
+
+Item   Corrected Item-Total Cronbach's α if
+       Correlation          Item Deleted   
+---------------------------------------------
+PE1             0.8174          0.9131
+PE2             0.8124          0.9141
+PE3             0.7975          0.9169
+PE4             0.8235          0.9119
+PE5             0.8217          0.9123
+
+============================================================
+ITEM ANALYSIS
+============================================================
+Item   Mean     Std Dev    Variance  
+-----------------------------------
+PE1     3.917    0.949    0.900
+PE2     3.926    0.913    0.833
+PE3     3.901    0.953    0.909
+PE4     3.921    0.939    0.881
+PE5     3.930    0.963    0.927
+
+============================================================
+PERFORMANCE EXPECTANCY SCALE EVALUATION
+============================================================
+Overall Performance Expectancy Mean: 3.919
+Interpretation: Moderate performance expectancy (Neutral to positive utility perception)
+
+Performance Expectancy Breakdown:
+PE1 (Financial rewards earning): 3.917
+PE2 (Digital asset ownership/trading): 3.926
+PE3 (Play-to-earn benefits): 3.901
+PE4 (Asset ownership/control): 3.921
+PE5 (Overall dual utility): 3.930
+
+Performance Perception Analysis:
+Strongest Performance Aspect: PE5 (M = 3.930)
+Weakest Performance Aspect: PE3 (M = 3.901)
+
+Performance Dimension Analysis:
+Financial Earning Utility: 3.917
+Asset Ownership Utility: 3.923
+Comparative Gaming Benefit: 3.901
+Overall Dual Utility: 3.930
+
+GameFi Utility Profile:
+Key Insight: Balanced dual-purpose utility (gaming + financial) drives GameFi appeal
+
+GameFi vs Traditional Gaming Analysis:
+Comparative Performance: Moderate advantage over traditional gaming
+
+Utility Adoption Analysis:
+Utility Barrier Level: LOW - Strong perceived utility supports adoption
+
+============================================================
+INTERPRETATION GUIDELINES
+============================================================
+Cronbach's Alpha Interpretation:
+• α ≥ 0.9  : Excellent reliability
+• α ≥ 0.8  : Good reliability
+• α ≥ 0.7  : Acceptable reliability
+• α ≥ 0.6  : Questionable reliability
+• α < 0.6  : Poor reliability
+
+Corrected Item-Total Correlations:
+• r ≥ 0.3  : Good item discrimination
+• r < 0.3  : Consider removing item
+
+Performance Expectancy Scale Interpretation:
+• Mean ≥ 4.0 : High utility (strong perceived usefulness)
+• Mean 3.0-3.9 : Moderate utility (neutral to positive usefulness)
+• Mean < 3.0 : Low utility (poor perceived usefulness)
+
+PE Components:
+• PE1: Financial earning ability (play-to-earn effectiveness)
+• PE2: Digital asset opportunities (NFT/token ownership)
+• PE3: Comparative gaming benefits (vs traditional games)
+• PE4: Asset ownership/control (digital property rights)
+• PE5: Dual utility effectiveness (gaming + financial value)
+
+GameFi Research Implications:
+• Low PE scores indicate perceived utility barriers to adoption
+• High PE scores suggest strong performance expectations support adoption
+• Compare PE components to identify specific utility strengths/weaknesses
+• PE3 shows GameFi positioning relative to traditional gaming
+• PE5 captures the unique dual-purpose value proposition of GameFi
+
+Process finished with exit code 0

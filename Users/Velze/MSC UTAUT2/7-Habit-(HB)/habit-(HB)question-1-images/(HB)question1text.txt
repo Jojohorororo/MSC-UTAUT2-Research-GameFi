@@ -1,0 +1,54 @@
+\MSC UTAUT2\7-Habit-(HB)\habit-(HB)-question1.py.py" 
+Could not find platform independent libraries <prefix>
+TESTING CLEAN SURVEY ANALYSIS CODE
+==================================================
+ANALYSIS: Using GameFi platforms has become a habit for me.
+============================================================
+
+RESULTS:
+Mean: 4.01
+SD: 0.99
+Total Responses: 516
+
+Response Distribution:
+  1 (Strongly Disagree): 17 responses (3.3%)
+  2 (Disagree): 22 responses (4.3%)
+  3 (Neutral): 84 responses (16.3%)
+  4 (Agree): 210 responses (40.7%)
+  5 (Strongly Agree): 183 responses (35.5%)
+
+SUMMARY:
+  Total Disagree: 39 (7.6%)
+  Neutral: 84 (16.3%)
+  Total Agree: 393 (76.2%)
+
+INTERPRETATION:
+STRONGLY AGREE - High agreement
+
+CREATING VISUALIZATIONS...
+============================================================
+
+1. Basic Response Distribution Chart
+
+2. Distribution Curve/Histogram
+Distribution Analysis:
+   • Skewness: -1.087 (0 = symmetric, <0 = left-skewed, >0 = right-skewed)
+   • Kurtosis: 1.025 (0 = normal, >0 = peaked, <0 = flat)
+   • Normality Test (Shapiro-Wilk): p = 0.0000
+     ** Data may not be normally distributed (p ≤ 0.05)
+
+3. Box Plot Analysis (FIXED - No More Overlapping!)
+Box Plot Insights:
+   ** Mean ≈ Median (4.01 ≈ 4.00): Symmetric distribution
+   • IQR = 1.00: Moderate variability - reasonable spread in responses
+   • 50% of responses fall between 4.00 and 5.00
+   • Distribution shape: symmetric
+   ** Potential outliers detected: 39 responses outside normal range
+
+All visualizations created successfully!
+
+Analysis Complete
+Quick Summary: STRONGLY AGREE - High agreement
+Mean: 4.01 | SD: 0.99
+
+Process finished with exit code 0

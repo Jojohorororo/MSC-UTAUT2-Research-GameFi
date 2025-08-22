@@ -1,0 +1,54 @@
+\MSC UTAUT2\5-Hedonic-Motivation-(HM)\hedonic-motivation-(HM)-question3.py" 
+Could not find platform independent libraries <prefix>
+TESTING CLEAN SURVEY ANALYSIS CODE
+==================================================
+ANALYSIS: The gameplay elements in GameFi platforms are fun, independent of potential financial rewards.
+============================================================
+
+RESULTS:
+Mean: 3.71
+SD: 1.06
+Total Responses: 516
+
+Response Distribution:
+  1 (Strongly Disagree): 24 responses (4.7%)
+  2 (Disagree): 36 responses (7.0%)
+  3 (Neutral): 133 responses (25.8%)
+  4 (Agree): 195 responses (37.8%)
+  5 (Strongly Agree): 128 responses (24.8%)
+
+SUMMARY:
+  Total Disagree: 60 (11.6%)
+  Neutral: 133 (25.8%)
+  Total Agree: 323 (62.6%)
+
+INTERPRETATION:
+MOSTLY AGREE - People generally agree
+
+CREATING VISUALIZATIONS...
+============================================================
+
+1. Basic Response Distribution Chart
+
+2. Distribution Curve/Histogram
+Distribution Analysis:
+   • Skewness: -0.700 (0 = symmetric, <0 = left-skewed, >0 = right-skewed)
+   • Kurtosis: 0.080 (0 = normal, >0 = peaked, <0 = flat)
+   • Normality Test (Shapiro-Wilk): p = 0.0000
+     ** Data may not be normally distributed (p ≤ 0.05)
+
+3. Box Plot Analysis (FIXED - No More Overlapping!)
+Box Plot Insights:
+   ** Mean < Median (3.71 < 4.00): Left-skewed (more low scores)
+   • IQR = 1.00: Moderate variability - reasonable spread in responses
+   • 50% of responses fall between 3.00 and 4.00
+   • Distribution shape: left-skewed
+   ** Potential outliers detected: 24 responses outside normal range
+
+All visualizations created successfully!
+
+Analysis Complete
+Quick Summary: MOSTLY AGREE - People generally agree
+Mean: 3.71 | SD: 1.06
+
+Process finished with exit code 0

@@ -1,0 +1,54 @@
+\MSC UTAUT2\3-Social-Influence-(SI)\social-influence-(SI)-question1.py" 
+Could not find platform independent libraries <prefix>
+TESTING CLEAN SURVEY ANALYSIS CODE
+==================================================
+ANALYSIS: People who influence my behavior think that I should use GameFi platforms.
+============================================================
+
+RESULTS:
+Mean: 3.80
+SD: 0.96
+Total Responses: 516
+
+Response Distribution:
+  1 (Strongly Disagree): 17 responses (3.3%)
+  2 (Disagree): 27 responses (5.2%)
+  3 (Neutral): 117 responses (22.7%)
+  4 (Agree): 238 responses (46.1%)
+  5 (Strongly Agree): 117 responses (22.7%)
+
+SUMMARY:
+  Total Disagree: 44 (8.5%)
+  Neutral: 117 (22.7%)
+  Total Agree: 355 (68.8%)
+
+INTERPRETATION:
+MOSTLY AGREE - People generally agree
+
+CREATING VISUALIZATIONS...
+============================================================
+
+1. Basic Response Distribution Chart
+
+2. Distribution Curve/Histogram
+Distribution Analysis:
+   • Skewness: -0.841 (0 = symmetric, <0 = left-skewed, >0 = right-skewed)
+   • Kurtosis: 0.712 (0 = normal, >0 = peaked, <0 = flat)
+   • Normality Test (Shapiro-Wilk): p = 0.0000
+     ** Data may not be normally distributed (p ≤ 0.05)
+
+3. Box Plot Analysis (FIXED - No More Overlapping!)
+Box Plot Insights:
+   ** Mean < Median (3.80 < 4.00): Left-skewed (more low scores)
+   • IQR = 1.00: Moderate variability - reasonable spread in responses
+   • 50% of responses fall between 3.00 and 4.00
+   • Distribution shape: left-skewed
+   ** Potential outliers detected: 17 responses outside normal range
+
+All visualizations created successfully!
+
+Analysis Complete
+Quick Summary: MOSTLY AGREE - People generally agree
+Mean: 3.80 | SD: 0.96
+
+Process finished with exit code 0

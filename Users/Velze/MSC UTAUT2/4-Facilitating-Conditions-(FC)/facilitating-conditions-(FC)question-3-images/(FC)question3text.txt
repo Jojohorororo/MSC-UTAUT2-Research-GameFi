@@ -1,0 +1,54 @@
+\MSC UTAUT2\4-Facilitating-Conditions-(FC)\facilitating-conditions-(FC)-question3.py" 
+Could not find platform independent libraries <prefix>
+TESTING CLEAN SURVEY ANALYSIS CODE
+==================================================
+ANALYSIS: I can get help from others when I have difficulties using GameFi platforms.
+============================================================
+
+RESULTS:
+Mean: 4.09
+SD: 0.92
+Total Responses: 516
+
+Response Distribution:
+  1 (Strongly Disagree): 11 responses (2.1%)
+  2 (Disagree): 16 responses (3.1%)
+  3 (Neutral): 82 responses (15.9%)
+  4 (Agree): 214 responses (41.5%)
+  5 (Strongly Agree): 193 responses (37.4%)
+
+SUMMARY:
+  Total Disagree: 27 (5.2%)
+  Neutral: 82 (15.9%)
+  Total Agree: 407 (78.9%)
+
+INTERPRETATION:
+STRONGLY AGREE - High agreement
+
+CREATING VISUALIZATIONS...
+============================================================
+
+1. Basic Response Distribution Chart
+
+2. Distribution Curve/Histogram
+Distribution Analysis:
+   • Skewness: -1.082 (0 = symmetric, <0 = left-skewed, >0 = right-skewed)
+   • Kurtosis: 1.261 (0 = normal, >0 = peaked, <0 = flat)
+   • Normality Test (Shapiro-Wilk): p = 0.0000
+     ** Data may not be normally distributed (p ≤ 0.05)
+
+3. Box Plot Analysis (FIXED - No More Overlapping!)
+Box Plot Insights:
+   ** Mean ≈ Median (4.09 ≈ 4.00): Symmetric distribution
+   • IQR = 1.00: Moderate variability - reasonable spread in responses
+   • 50% of responses fall between 4.00 and 5.00
+   • Distribution shape: symmetric
+   ** Potential outliers detected: 27 responses outside normal range
+
+All visualizations created successfully!
+
+Analysis Complete
+Quick Summary: STRONGLY AGREE - High agreement
+Mean: 4.09 | SD: 0.92
+
+Process finished with exit code 0

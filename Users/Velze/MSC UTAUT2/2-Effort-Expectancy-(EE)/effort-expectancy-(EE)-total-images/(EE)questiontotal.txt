@@ -1,0 +1,54 @@
+\MSC UTAUT2\2-Effort-Expectancy-(EE)\effort-expectancy-(EE)-total.py" 
+Could not find platform independent libraries <prefix>
+TESTING CLEAN SURVEY ANALYSIS CODE
+==================================================
+ANALYSIS: Effort Expectancy (EE)
+============================================================
+
+RESULTS:
+Mean: 3.38
+SD: 1.26
+Total Responses: 2064
+
+Response Distribution:
+  1 (Strongly Disagree): 204 responses (9.9%)
+  2 (Disagree): 357 responses (17.3%)
+  3 (Neutral): 398 responses (19.3%)
+  4 (Agree): 669 responses (32.4%)
+  5 (Strongly Agree): 436 responses (21.1%)
+
+SUMMARY:
+  Total Disagree: 561 (27.2%)
+  Neutral: 398 (19.3%)
+  Total Agree: 1105 (53.5%)
+
+INTERPRETATION:
+SLIGHTLY POSITIVE - Mixed feelings, slightly above neutral
+
+CREATING VISUALIZATIONS...
+============================================================
+
+1. Basic Response Distribution Chart
+
+2. Distribution Curve/Histogram
+Distribution Analysis:
+   • Skewness: -0.398 (0 = symmetric, <0 = left-skewed, >0 = right-skewed)
+   • Kurtosis: -0.922 (0 = normal, >0 = peaked, <0 = flat)
+   • Normality Test (Shapiro-Wilk): p = 0.0000
+     ** Data may not be normally distributed (p ≤ 0.05)
+
+3. Box Plot Analysis (FIXED - No More Overlapping!)
+Box Plot Insights:
+   ** Mean < Median (3.38 < 4.00): Left-skewed (more low scores)
+   • IQR = 2.00: High variability - wide range of opinions
+   • 50% of responses fall between 2.00 and 4.00
+   • Distribution shape: left-skewed
+   ** No outliers detected - all responses within expected range
+
+All visualizations created successfully!
+
+Analysis Complete
+Quick Summary: SLIGHTLY POSITIVE - Mixed feelings, slightly above neutral
+Mean: 3.38 | SD: 1.26
+
+Process finished with exit code 0

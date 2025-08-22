@@ -1,0 +1,54 @@
+\MSC UTAUT2\5-Hedonic-Motivation-(HM)\hedonic-motivation-(HM)-question4.py" 
+Could not find platform independent libraries <prefix>
+TESTING CLEAN SURVEY ANALYSIS CODE
+==================================================
+ANALYSIS: Using GameFi platforms makes gaming more exciting for me.
+============================================================
+
+RESULTS:
+Mean: 4.03
+SD: 1.02
+Total Responses: 516
+
+Response Distribution:
+  1 (Strongly Disagree): 14 responses (2.7%)
+  2 (Disagree): 27 responses (5.2%)
+  3 (Neutral): 94 responses (18.2%)
+  4 (Agree): 176 responses (34.1%)
+  5 (Strongly Agree): 205 responses (39.7%)
+
+SUMMARY:
+  Total Disagree: 41 (7.9%)
+  Neutral: 94 (18.2%)
+  Total Agree: 381 (73.8%)
+
+INTERPRETATION:
+STRONGLY AGREE - High agreement
+
+CREATING VISUALIZATIONS...
+============================================================
+
+1. Basic Response Distribution Chart
+
+2. Distribution Curve/Histogram
+Distribution Analysis:
+   • Skewness: -0.979 (0 = symmetric, <0 = left-skewed, >0 = right-skewed)
+   • Kurtosis: 0.500 (0 = normal, >0 = peaked, <0 = flat)
+   • Normality Test (Shapiro-Wilk): p = 0.0000
+     ** Data may not be normally distributed (p ≤ 0.05)
+
+3. Box Plot Analysis (FIXED - No More Overlapping!)
+Box Plot Insights:
+   ** Mean ≈ Median (4.03 ≈ 4.00): Symmetric distribution
+   • IQR = 2.00: High variability - wide range of opinions
+   • 50% of responses fall between 3.00 and 5.00
+   • Distribution shape: symmetric
+   ** No outliers detected - all responses within expected range
+
+All visualizations created successfully!
+
+Analysis Complete
+Quick Summary: STRONGLY AGREE - High agreement
+Mean: 4.03 | SD: 1.02
+
+Process finished with exit code 0

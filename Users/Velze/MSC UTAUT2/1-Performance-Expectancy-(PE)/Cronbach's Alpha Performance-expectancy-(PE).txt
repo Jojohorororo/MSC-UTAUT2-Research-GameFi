@@ -1,0 +1,69 @@
+\MSC UTAUT2\1-Performance-Expectancy-(PE)\Cronbach's Alpha Performance-expectancy-(PE).py" 
+Could not find platform independent libraries <prefix>
+Reading Performance Expectancy data...
+Dataset loaded successfully!
+Number of participants: 516
+Number of PE items: 5
+Items: ['PE1', 'PE2', 'PE3', 'PE4', 'PE5']
+
+Converting text responses to numerical values...
+Mapping:
+  Strongly Disagree → 1
+  Disagree → 2
+  Neither Agree/Disagree → 3
+  Agree → 4
+  Strongly Agree → 5
+
+Sample of converted data:
+   PE1  PE2  PE3  PE4  PE5
+0    4    4    3    3    4
+1    4    4    3    4    4
+2    5    5    5    5    5
+3    3    4    4    4    5
+4    4    4    4    3    4
+
+✓ All values successfully converted to numerical format
+
+=== DESCRIPTIVE STATISTICS ===
+              PE1         PE2         PE3         PE4         PE5
+count  516.000000  516.000000  516.000000  516.000000  516.000000
+mean     3.916667    3.926357    3.901163    3.920543    3.930233
+std      0.948598    0.912908    0.953236    0.938644    0.962892
+min      1.000000    1.000000    1.000000    1.000000    1.000000
+25%      3.000000    3.000000    3.000000    3.000000    3.000000
+50%      4.000000    4.000000    4.000000    4.000000    4.000000
+75%      5.000000    5.000000    5.000000    5.000000    5.000000
+max      5.000000    5.000000    5.000000    5.000000    5.000000
+
+=== RELIABILITY ANALYSIS ===
+Cronbach's Alpha: 0.9297
+
+Reliability Interpretation: Excellent
+
+=== CORRECTED ITEM-TOTAL CORRELATIONS ===
+PE1: 0.8174
+PE2: 0.8124
+PE3: 0.7975
+PE4: 0.8235
+PE5: 0.8217
+
+=== ITEM-TOTAL CORRELATION INTERPRETATION ===
+Generally acceptable range: 0.30 - 0.70
+Items with correlations < 0.30 may be problematic
+Items with correlations > 0.70 may be redundant
+
+PE1: 0.8174 - 📊 High (check for redundancy)
+PE2: 0.8124 - 📊 High (check for redundancy)
+PE3: 0.7975 - 📊 High (check for redundancy)
+PE4: 0.8235 - 📊 High (check for redundancy)
+PE5: 0.8217 - 📊 High (check for redundancy)
+
+=== SUMMARY ===
+• Sample size: 516 participants
+• Number of items: 5
+• Cronbach's Alpha: 0.9297 (Excellent)
+• Scale range: 1-5 (Likert scale)
+• Mean scale score: 19.59
+• Scale score range: 5-25
+
+Process finished with exit code 0

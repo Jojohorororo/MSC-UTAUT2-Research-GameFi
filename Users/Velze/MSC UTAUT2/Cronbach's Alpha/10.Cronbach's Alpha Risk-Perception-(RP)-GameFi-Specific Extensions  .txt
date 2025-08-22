@@ -1,0 +1,163 @@
+\MSC UTAUT2\Cronbach's Alpha\10.Cronbach's Alpha Risk-Perception-(RP)-GameFi-Specific Extensions  .py" 
+Could not find platform independent libraries <prefix>
+=================================================================
+CRONBACH'S ALPHA ANALYSIS - RISK PERCEPTION (RP)
+GameFi-Specific Extensions
+=================================================================
+Loading data...
+Current directory: C:\Users\Velze\PyCharmMiscProject\Users\Velze\MSC UTAUT2\Cronbach's Alpha
+Files in current directory:
+  📊 behavioralintention BI.xlsx
+  📊 economicMotivation EM GameFi Specific Extensions.xlsx
+  📊 effort expectancy (EE).xlsx
+  📊 facilitationconditions FC.xlsx
+  📊 habit HB.xlsx
+  📊 hedonisticmotivation HM.xlsx
+  📊 performance expect PE.xlsx
+  📊 pricevalue PV.xlsx
+  📊 RiskPerception RP Gamefi Specific Extensions.xlsx
+  📊 socialinfluence SI.xlsx
+✓ Data loaded successfully from 'RiskPerception RP Gamefi Specific Extensions.xlsx': 516 participants
+✓ Found 4 Risk Perception items
+
+Risk Perception Items (GameFi-Specific Extensions):
+RP1: I am concerned about the financial risks (volatility, potential losses) associated with GameFi
+RP2: I worry about security vulnerabilities in GameFi platforms (hacks, scams, exploits)
+RP3: I am concerned about the long-term sustainability of GameFi economic models
+RP3.1: The overall uncertainty surrounding GameFi technology and markets is a significant concern for me
+
+Original response distribution:
+RP1: {'Strongly Agree': 215, 'Agree': 176, 'Neither Agree/Disagree': 88, 'Disagree': 21, 'Strongly Disagree': 16}
+RP2: {'Strongly Agree': 252, 'Agree': 149, 'Neither Agree/Disagree': 71, 'Disagree': 29, 'Strongly Disagree': 15}
+RP3: {'Strongly Agree': 186, 'Agree': 174, 'Neither Agree/Disagree': 116, 'Disagree': 25, 'Strongly Disagree': 15}
+RP3.1: {'Strongly Agree': 175, 'Agree': 169, 'Neither Agree/Disagree': 128, 'Disagree': 29, 'Strongly Disagree': 15}
+
+Converting responses to numeric scale (1-5)...
+✓ Final dataset: 516 complete responses
+
+=================================================================
+DESCRIPTIVE STATISTICS
+=================================================================
+           RP1      RP2      RP3    RP3.1
+count  516.000  516.000  516.000  516.000
+mean     4.072    4.151    3.952    3.891
+std      1.013    1.045    1.020    1.031
+min      1.000    1.000    1.000    1.000
+25%      4.000    4.000    3.000    3.000
+50%      4.000    4.000    4.000    4.000
+75%      5.000    5.000    5.000    5.000
+max      5.000    5.000    5.000    5.000
+
+=================================================================
+RELIABILITY ANALYSIS RESULTS
+=================================================================
+Cronbach's Alpha: 0.9066
+Reliability Level: Excellent
+
+Number of Items: 4
+Number of Cases: 516
+
+Item   Corrected Item-Total Cronbach's α if
+       Correlation          Item Deleted   
+---------------------------------------------
+RP1             0.7938          0.8776
+RP2             0.7228          0.9030
+RP3             0.8245          0.8666
+RP3.1           0.8183          0.8687
+
+=================================================================
+ITEM ANALYSIS
+=================================================================
+Item   Mean     Std Dev    Variance  
+-----------------------------------
+RP1     4.072    1.013    1.026
+RP2     4.151    1.045    1.092
+RP3     3.952    1.020    1.040
+RP3.1   3.891    1.031    1.064
+
+=================================================================
+RISK PERCEPTION SCALE EVALUATION
+=================================================================
+Overall Risk Perception Mean: 4.016
+Interpretation: High risk perception (Strong concerns about GameFi risks)
+
+Risk Perception Breakdown:
+RP1 (Financial risks - volatility/losses): 4.072
+RP2 (Security vulnerabilities): 4.151
+RP3 (Sustainability concerns): 3.952
+RP3.1 (Technology/market uncertainty): 3.891
+
+Risk Perception Analysis:
+Highest Risk Concern: RP2 (M = 4.151)
+Lowest Risk Concern: RP3.1 (M = 3.891)
+
+Risk Dimension Analysis:
+Financial Risk Concerns: 4.072
+Security Risk Concerns: 4.151
+Sustainability Risk Concerns: 3.952
+Technology/Market Uncertainty: 3.891
+
+Risk Profile Analysis:
+Key Insight: Security vulnerabilities are the primary risk concern
+
+Risk Barrier Assessment:
+Adoption Barrier Level: HIGH - Strong risk perceptions may significantly hinder adoption
+
+Risk Tolerance Segmentation:
+High Risk Perception (≥4.0): 346 (67.1%)
+Moderate Risk Perception (3.0-3.9): 127 (24.6%)
+Low Risk Perception (<3.0): 43 (8.3%)
+
+Risk vs Economic Motivation Analysis:
+Note: Compare these results with Economic Motivation (EM) findings:
+- EM Overall Mean: 4.129 (Strong economic motivation)
+- 72.9% High Economic Motivation users
+- RP Overall Mean: 4.016
+Risk-Economic Profile: High risk awareness BUT strong economic motivation - Risk-reward trade-off behavior
+
+GameFi Risk Management Implications:
+Risk Management Priority: Platform security and exploit prevention should be top priority
+
+Adoption Risk Implications:
+Adoption Strategy: Majority perceive high risks - extensive risk mitigation required for mass adoption
+
+Risk Communication Analysis:
+Communication Strategy: High uncertainty - requires extensive education and transparency initiatives
+
+=================================================================
+INTERPRETATION GUIDELINES
+=================================================================
+Cronbach's Alpha Interpretation:
+• α ≥ 0.9  : Excellent reliability
+• α ≥ 0.8  : Good reliability
+• α ≥ 0.7  : Acceptable reliability
+• α ≥ 0.6  : Questionable reliability
+• α < 0.6  : Poor reliability
+
+Corrected Item-Total Correlations:
+• r ≥ 0.3  : Good item discrimination
+• r < 0.3  : Consider removing item
+
+Risk Perception Scale Interpretation:
+• Mean ≥ 4.0 : High risk perception (strong barriers to adoption)
+• Mean 3.5-3.9 : Moderate-high risk perception (significant concerns)
+• Mean 3.0-3.4 : Moderate risk perception (some awareness)
+• Mean < 3.0 : Low risk perception (limited concerns)
+
+RP Components:
+• RP1: Financial risks (volatility, potential losses)
+• RP2: Security vulnerabilities (hacks, scams, exploits)
+• RP3: Sustainability concerns (long-term economic model viability)
+• RP3.1: Technology/market uncertainty (overall GameFi ecosystem risks)
+
+GameFi Risk Research Implications:
+• High RP scores indicate significant adoption barriers
+• RP1 shows sensitivity to financial volatility and loss potential
+• RP2 reveals security trust issues requiring platform assurance
+• RP3 indicates sustainability skepticism affecting long-term commitment
+• RP3.1 shows technology uncertainty requiring education and transparency
+• Risk-Economic Motivation comparison reveals risk-reward trade-off behavior
+• Risk segmentation helps identify different user risk tolerance profiles
+• Primary risk concerns guide targeted risk mitigation strategies
+
+Process finished with exit code 0

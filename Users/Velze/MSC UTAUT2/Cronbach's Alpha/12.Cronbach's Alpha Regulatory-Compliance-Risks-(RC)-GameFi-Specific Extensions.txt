@@ -1,0 +1,163 @@
+UTAUT2\Cronbach's Alpha\12.Cronbach's Alpha Regulatory-Complianc- Risks-(RC)-GameFi-Specific Extensions.py" 
+Could not find platform independent libraries <prefix>
+======================================================================
+CRONBACH'S ALPHA ANALYSIS - REGULATORY & COMPLIANCE RISKS (RC)
+GameFi-Specific Extensions
+======================================================================
+Loading data...
+Current directory: C:\Users\Velze\PyCharmMiscProject\Users\Velze\MSC UTAUT2\Cronbach's Alpha
+Files in current directory:
+  📊 behavioralintention BI.xlsx
+  📊 economicMotivation EM GameFi Specific Extensions.xlsx
+  📊 effort expectancy (EE).xlsx
+  📊 facilitationconditions FC.xlsx
+  📊 habit HB.xlsx
+  📊 hedonisticmotivation HM.xlsx
+  📊 performance expect PE.xlsx
+  📊 pricevalue PV.xlsx
+  📊 RegulatoryComplianceRisks RC GameFi-Specific Extensions.xlsx
+  📊 RiskPerception RP Gamefi Specific Extensions.xlsx
+  📊 socialinfluence SI.xlsx
+  📊 Trust Technology TT Gamefi Specific Extensions.xlsx
+✓ Data loaded successfully from 'RegulatoryComplianceRisks RC GameFi-Specific Extensions.xlsx': 516 participants
+✓ Found 2 Regulatory and Compliance Risk items
+
+Regulatory and Compliance Risk Items (GameFi-Specific Extensions):
+RC1: Unclear regulations around cryptocurrency and NFTs make me hesitant to participate in GameFi
+RC2: I am concerned about potential tax and legal implications from GameFi activities
+
+Original response distribution:
+RC1: {'Strongly Agree': 147, 'Neither Agree/Disagree': 128, 'Agree': 100, 'Disagree': 91, 'Strongly Disagree': 50}
+RC2: {'Neither Agree/Disagree': 138, 'Strongly Agree': 117, 'Agree': 104, 'Disagree': 96, 'Strongly Disagree': 61}
+
+Converting responses to numeric scale (1-5)...
+✓ Final dataset: 516 complete responses
+
+======================================================================
+DESCRIPTIVE STATISTICS
+======================================================================
+           RC1      RC2
+count  516.000  516.000
+mean     3.393    3.233
+std      1.321    1.310
+min      1.000    1.000
+25%      2.000    2.000
+50%      3.000    3.000
+75%      5.000    4.000
+max      5.000    5.000
+
+======================================================================
+RELIABILITY ANALYSIS RESULTS
+======================================================================
+Cronbach's Alpha: 0.8947
+Note: This is a 2-item scale. Cronbach's Alpha for 2-item scales
+is equivalent to the Spearman-Brown stepped-up reliability.
+Reliability Level: Good
+
+Number of Items: 2
+Number of Cases: 516
+
+Item   Corrected Item-Total Cronbach's α if
+       Correlation          Item Deleted   
+---------------------------------------------
+RC1             0.8096    N/A (1 item)
+RC2             0.8096    N/A (1 item)
+
+Inter-item Correlation (RC1-RC2): 0.8096
+Note: For 2-item scales, inter-item correlation should be ≥ 0.3
+
+======================================================================
+ITEM ANALYSIS
+======================================================================
+Item   Mean     Std Dev    Variance  
+-----------------------------------
+RC1     3.393    1.321    1.746
+RC2     3.233    1.310    1.717
+
+======================================================================
+REGULATORY & COMPLIANCE RISK SCALE EVALUATION
+======================================================================
+Overall Regulatory & Compliance Risk Mean: 3.313
+Interpretation: Moderate regulatory risk concern (Some regulatory awareness)
+
+Regulatory & Compliance Risk Breakdown:
+RC1 (Regulatory uncertainty - crypto/NFT rules): 3.393
+RC2 (Legal/tax compliance concerns): 3.233
+
+Regulatory & Compliance Risk Analysis:
+Higher Regulatory Concern: RC1 (M = 3.393)
+Lower Regulatory Concern: RC2 (M = 3.233)
+
+Regulatory Dimension Analysis:
+Regulatory Uncertainty (Crypto/NFT Rules): 3.393
+Legal/Tax Compliance Concerns: 3.233
+
+Regulatory Risk Profile Analysis:
+Key Insight: Regulatory uncertainty is greater concern than compliance - Need clearer rules
+
+Regulatory Barrier Assessment:
+Regulatory Adoption Barrier: MODERATE - Some regulatory awareness but not prohibitive
+
+Regulatory Risk Segmentation:
+High Regulatory Risk (≥4.0): 219 (42.4%)
+Moderate Regulatory Risk (3.0-3.9): 152 (29.5%)
+Low Regulatory Risk (<3.0): 145 (28.1%)
+
+Regulatory vs Other Risk Comparisons:
+Compare with other risk findings:
+- Overall Risk Perception (RP): 4.016 (High general risk awareness)
+- Security Risk (RP2): 4.151 (Highest specific risk concern)
+- Regulatory Risk (RC): 3.313
+Risk Hierarchy Position: Regulatory risks are lower than other risk categories
+
+Regulatory Adoption Implications:
+Policy Needs: Limited regulatory concerns - current uncertainty acceptable for adoption
+
+Regulatory Strategy Analysis:
+Strategy Priority: Current regulatory environment acceptable - monitor for changes
+
+Regulatory Communication Analysis:
+Communication Strategy: Significant regulatory concerns - targeted regulatory communication needed
+
+Economic Motivation vs Regulatory Risk:
+Note: Compare with Economic Motivation findings:
+- Economic Motivation (EM): 4.129 (Strong economic motivation)
+- 72.9% High Economic Motivation users
+- Regulatory Risk (RC): 3.313
+Economic-Regulatory Balance: High economic motivation with manageable regulatory concerns - Favorable risk-reward balance
+
+======================================================================
+INTERPRETATION GUIDELINES
+======================================================================
+Cronbach's Alpha Interpretation:
+• α ≥ 0.9  : Excellent reliability
+• α ≥ 0.8  : Good reliability
+• α ≥ 0.7  : Acceptable reliability
+• α ≥ 0.6  : Questionable reliability
+• α < 0.6  : Poor reliability
+
+Inter-item Correlation (2-item scales):
+• r ≥ 0.3  : Adequate correlation
+• r < 0.3  : Poor item relationship
+
+Regulatory & Compliance Risk Scale Interpretation:
+• Mean ≥ 4.0 : High regulatory concerns (strong barriers to adoption)
+• Mean 3.5-3.9 : Moderate-high regulatory concerns (significant concerns)
+• Mean 3.0-3.4 : Moderate regulatory concerns (some awareness)
+• Mean < 3.0 : Low regulatory concerns (limited concerns)
+
+RC Components:
+• RC1: Regulatory uncertainty (unclear crypto/NFT regulations)
+• RC2: Legal/tax compliance concerns (potential legal implications)
+
+GameFi Regulatory Research Implications:
+• High RC scores indicate regulatory barriers to mass adoption
+• RC1 shows need for clearer cryptocurrency and NFT regulations
+• RC2 reveals compliance anxiety requiring guidance and support
+• Regulatory vs other risk comparisons show relative barrier importance
+• Economic motivation vs regulatory risk reveals risk-reward calculations
+• High regulatory concerns require policy advocacy and user education
+• Regulatory strategy should address both uncertainty and compliance needs
+• Communication strategies must address regulatory anxiety for adoption
+
+Process finished with exit code 0

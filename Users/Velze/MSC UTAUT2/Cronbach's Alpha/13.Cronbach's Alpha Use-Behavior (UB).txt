@@ -1,0 +1,191 @@
+UTAUT2\Cronbach's Alpha\13.Cronbach's Alpha Use-Behavior (UB).py" 
+Could not find platform independent libraries <prefix>
+============================================================
+CRONBACH'S ALPHA ANALYSIS - USE BEHAVIOR (UB)
+Final UTAUT2 + GameFi Extensions Construct
+============================================================
+Loading data...
+Current directory: C:\Users\Velze\PyCharmMiscProject\Users\Velze\MSC UTAUT2\Cronbach's Alpha
+Files in current directory:
+  📊 behavioralintention BI.xlsx
+  📊 economicMotivation EM GameFi Specific Extensions.xlsx
+  📊 effort expectancy (EE).xlsx
+  📊 facilitationconditions FC.xlsx
+  📊 habit HB.xlsx
+  📊 hedonisticmotivation HM.xlsx
+  📊 performance expect PE.xlsx
+  📊 pricevalue PV.xlsx
+  📊 RegulatoryComplianceRisks RC GameFi-Specific Extensions.xlsx
+  📊 RiskPerception RP Gamefi Specific Extensions.xlsx
+  📊 socialinfluence SI.xlsx
+  📊 Trust Technology TT Gamefi Specific Extensions.xlsx
+  📊 Usebehavior UB.xlsx
+✓ Data loaded successfully from 'Usebehavior UB.xlsx': 516 participants
+✓ Found 2 Use Behavior items
+
+Use Behavior Items:
+UB1: How often do you currently use GameFi platforms
+UB2: On average, how many hours per week do you spend on GameFi platforms
+
+Original response distribution:
+UB1: {'Daily': 281, 'Several times a week': 137, 'Weekly': 43, 'Monthly or less': 27, 'A few times a month': 19, 'Never': 9}
+UB2: {'1-5 hours': 152, '6-10 hours': 140, 'More than 20 hours': 102, '11-20 hours': 77, 'Less than 1 hour': 35, '0 hours': 10}
+
+Converting responses to numeric scale (1-5)...
+UB1 (Frequency): Never/Monthly=1, Few times/month=2, Weekly=3, Several times/week=4, Daily=5
+UB2 (Hours): 0-1 hours=1, 1-5 hours=2, 6-10 hours=3, 11-20 hours=4, 20+ hours=5
+✓ Final dataset: 516 complete responses
+
+============================================================
+DESCRIPTIVE STATISTICS
+============================================================
+           UB1      UB2
+count  516.000  516.000
+mean     4.178    3.076
+std      1.172    1.257
+min      1.000    1.000
+25%      4.000    2.000
+50%      5.000    3.000
+75%      5.000    4.000
+max      5.000    5.000
+
+============================================================
+RELIABILITY ANALYSIS RESULTS
+============================================================
+Cronbach's Alpha: 0.6662
+Note: This is a 2-item scale. Cronbach's Alpha for 2-item scales
+is equivalent to the Spearman-Brown stepped-up reliability.
+Reliability Level: Questionable
+
+Number of Items: 2
+Number of Cases: 516
+
+Item   Corrected Item-Total Cronbach's α if
+       Correlation          Item Deleted   
+---------------------------------------------
+UB1             0.5007    N/A (1 item)
+UB2             0.5007    N/A (1 item)
+
+Inter-item Correlation (UB1-UB2): 0.5007
+Note: For 2-item scales, inter-item correlation should be ≥ 0.3
+
+============================================================
+ITEM ANALYSIS
+============================================================
+Item   Mean     Std Dev    Variance  
+-----------------------------------
+UB1     4.178    1.172    1.374
+UB2     3.076    1.257    1.581
+
+============================================================
+USE BEHAVIOR SCALE EVALUATION
+============================================================
+Overall Use Behavior Mean: 3.627
+Interpretation: Moderate-high use behavior (Regular GameFi usage)
+
+Use Behavior Breakdown:
+UB1 (Usage frequency): 4.178
+UB2 (Time investment - hours/week): 3.076
+
+Use Behavior Analysis:
+Stronger Behavior Pattern: UB1 (M = 4.178)
+Weaker Behavior Pattern: UB2 (M = 3.076)
+
+Behavioral Dimension Analysis:
+Usage Frequency: 4.178
+Time Investment (Hours/Week): 3.076
+
+Behavioral Pattern Analysis:
+Key Insight: Frequent but brief usage patterns (high frequency, lower time investment)
+
+Usage Intensity Assessment:
+Usage Intensity: MODERATE-HIGH - Regular GameFi platform usage
+
+Use Behavior Segmentation:
+High Usage (≥4.0): 241 (46.7%)
+Moderate Usage (3.0-3.9): 195 (37.8%)
+Low Usage (<3.0): 80 (15.5%)
+
+INTENTION-BEHAVIOR GAP ANALYSIS
+============================================================
+Critical UTAUT2 Analysis: Behavioral Intention vs Actual Use Behavior
+
+Compare with Behavioral Intention (BI) findings:
+- Behavioral Intention (BI): 4.092 (Strong adoption intentions)
+- 71.5% High Behavioral Intention users
+- Use Behavior (UB): 3.627
+- 46.7% High Use Behavior users
+
+Intention-Behavior Gap Metrics:
+Mean Gap (BI - UB): 0.465 points
+Percentage Gap (High BI - High UB): 24.8 percentage points
+Gap Assessment: MODERATE intention-behavior gap - Some conversion challenges
+
+Behavior Conversion Analysis:
+Potential factors influencing intention-to-behavior conversion:
+- Economic Motivation (EM): 4.129 (Strong economic drive)
+- Risk Perception (RP): 4.016 (High risk awareness)
+- Trust in Technology (TT): 3.433 (Moderate tech trust)
+- Regulatory Concerns (RC): 3.313 (Manageable regulatory worries)
+Conversion Pattern: Good intention-to-behavior conversion - Motivations overcome barriers
+
+UTAUT2 MODEL PERFORMANCE ASSESSMENT
+============================================================
+Final Model Outcome Analysis:
+Model Predictive Success: HIGH - Strong intentions translate to strong behavior
+
+Practical Implications:
+Strategy Focus: Good conversion - focus on maintaining and increasing intentions
+
+GameFi Platform Usage Insights:
+Platform Performance: Strong user base with high engagement - Platform stickiness achieved
+
+FINAL UTAUT2 + GAMEFI RESEARCH SUMMARY
+============================================================
+Complete Model Overview:
+1. Performance Expectancy (PE): 0.9297 α - Strong utility perceptions
+2. Behavioral Intention (BI): 0.9116 α - 4.092 mean - Strong adoption intentions
+3. Use Behavior (UB): 0.6662 α - 3.627 mean - Actual usage behavior
+4. Economic Motivation (EM): 0.8816 α - 4.129 mean - Primary driver
+5. Risk Perception (RP): 0.9066 α - 4.016 mean - High risk awareness
+6. Trust in Technology (TT): 0.8087 α - 3.433 mean - Moderate tech trust
+7. Regulatory Concerns (RC): 0.8947 α - 3.313 mean - Manageable barriers
+
+Key Finding: MODERATE intention-behavior gap - Some conversion challenges
+User Profile: Sophisticated economic actors who weigh risks against rewards
+Adoption Pattern: High intentions with good behavioral follow-through
+
+============================================================
+INTERPRETATION GUIDELINES
+============================================================
+Cronbach's Alpha Interpretation:
+• α ≥ 0.9  : Excellent reliability
+• α ≥ 0.8  : Good reliability
+• α ≥ 0.7  : Acceptable reliability
+• α ≥ 0.6  : Questionable reliability
+• α < 0.6  : Poor reliability
+
+Inter-item Correlation (2-item scales):
+• r ≥ 0.3  : Adequate correlation
+• r < 0.3  : Poor item relationship
+
+Use Behavior Scale Interpretation:
+• Mean ≥ 4.0 : High usage (frequent and intensive GameFi use)
+• Mean 3.5-3.9 : Moderate-high usage (regular GameFi use)
+• Mean 3.0-3.4 : Moderate usage (some GameFi use)
+• Mean < 3.0 : Low usage (limited GameFi use)
+
+UB Components:
+• UB1: Usage frequency (how often participants use GameFi)
+• UB2: Time investment (hours per week spent on GameFi)
+
+GameFi Use Behavior Research Implications:
+• UB is the ultimate outcome variable in UTAUT2 models
+• Intention-behavior gap analysis reveals conversion effectiveness
+• High UB scores indicate successful GameFi platform adoption
+• UB patterns (frequency vs time) inform platform design strategies
+• Low UB despite high intentions suggests remaining adoption barriers
+• Use behavior segmentation identifies different user engagement levels
+• Behavioral analysis guides retention and engagement strategies
+
+Process finished with exit code 0

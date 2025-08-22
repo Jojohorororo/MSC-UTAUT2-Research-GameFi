@@ -1,0 +1,146 @@
+\MSC UTAUT2\Cronbach's Alpha\8.Cronbach's Alpha Behavioral-intention-(BI).py" 
+Could not find platform independent libraries <prefix>
+============================================================
+CRONBACH'S ALPHA ANALYSIS - BEHAVIORAL INTENTION (BI)
+============================================================
+Loading data...
+Current directory: C:\Users\Velze\PyCharmMiscProject\Users\Velze\MSC UTAUT2\Cronbach's Alpha
+Files in current directory:
+  📊 behavioralintention BI.xlsx
+  📊 effort expectancy (EE).xlsx
+  📊 facilitationconditions FC.xlsx
+  📊 habit HB.xlsx
+  📊 hedonisticmotivation HM.xlsx
+  📊 performance expect PE.xlsx
+  📊 pricevalue PV.xlsx
+  📊 socialinfluence SI.xlsx
+✓ Data loaded successfully from 'behavioralintention BI.xlsx': 516 participants
+✓ Found 3 Behavioral Intention items
+
+Behavioral Intention Items:
+BI1: I intend to use GameFi platforms in the future (within the next 6 months)
+BI2: I plan to use GameFi platforms regularly in the future
+BI3: I intend to recommend GameFi platforms to others through social media and online communities
+
+Original response distribution:
+BI1: {'Strongly Agree': 250, 'Agree': 157, 'Neither Agree/Disagree': 76, 'Strongly Disagree': 17, 'Disagree': 16}
+BI2: {'Strongly Agree': 231, 'Agree': 176, 'Neither Agree/Disagree': 76, 'Strongly Disagree': 17, 'Disagree': 16}
+BI3: {'Strongly Agree': 202, 'Agree': 159, 'Neither Agree/Disagree': 110, 'Strongly Disagree': 23, 'Disagree': 22}
+
+Converting responses to numeric scale (1-5)...
+✓ Final dataset: 516 complete responses
+
+============================================================
+DESCRIPTIVE STATISTICS
+============================================================
+           BI1      BI2      BI3
+count  516.000  516.000  516.000
+mean     4.176    4.140    3.959
+std      1.012    0.999    1.085
+min      1.000    1.000    1.000
+25%      4.000    4.000    3.000
+50%      4.000    4.000    4.000
+75%      5.000    5.000    5.000
+max      5.000    5.000    5.000
+
+============================================================
+RELIABILITY ANALYSIS RESULTS
+============================================================
+Cronbach's Alpha: 0.9116
+Reliability Level: Excellent
+
+Number of Items: 3
+Number of Cases: 516
+
+Item   Corrected Item-Total Cronbach's α if
+       Correlation          Item Deleted   
+---------------------------------------------
+BI1             0.8551          0.8464
+BI2             0.8504          0.8511
+BI3             0.7677          0.9222
+
+============================================================
+ITEM ANALYSIS
+============================================================
+Item   Mean     Std Dev    Variance  
+-----------------------------------
+BI1     4.176    1.012    1.023
+BI2     4.140    0.999    0.998
+BI3     3.959    1.085    1.177
+
+============================================================
+BEHAVIORAL INTENTION SCALE EVALUATION
+============================================================
+Overall Behavioral Intention Mean: 4.092
+Interpretation: Strong behavioral intention (High likelihood of GameFi adoption)
+
+Behavioral Intention Breakdown:
+BI1 (Future usage intention - 6 months): 4.176
+BI2 (Regular usage plans): 4.140
+BI3 (Recommendation intention): 3.959
+
+Behavioral Intention Analysis:
+Strongest Intention Aspect: BI1 (M = 4.176)
+Weakest Intention Aspect: BI3 (M = 3.959)
+
+Intention Dimension Analysis:
+Future Usage Intention (6 months): 4.176
+Regular Usage Plans: 4.140
+Recommendation Intention: 3.959
+
+Behavioral Prediction Profile:
+Key Insight: Personal usage intention stronger than social advocacy
+
+Adoption Likelihood Assessment:
+Adoption Likelihood: HIGH - Strong intentions predict likely adoption
+
+Word-of-Mouth Analysis:
+Viral Marketing Potential: Moderate viral potential (some recommendation intentions)
+
+Intention-Behavior Gap Analysis:
+High Intention Users: 369/516 (71.5%)
+Gap Analysis: Majority shows strong intentions - low intention-behavior gap expected
+
+Timeline Commitment Analysis:
+6-Month Outlook: Strong 6-month commitment (high near-term adoption probability)
+
+Behavioral Intention Segmentation:
+Strong Adopters (≥4.0): 369 (71.5%)
+Moderate Adopters (3.0-3.9): 104 (20.2%)
+Weak Adopters (<3.0): 43 (8.3%)
+
+============================================================
+INTERPRETATION GUIDELINES
+============================================================
+Cronbach's Alpha Interpretation:
+• α ≥ 0.9  : Excellent reliability
+• α ≥ 0.8  : Good reliability
+• α ≥ 0.7  : Acceptable reliability
+• α ≥ 0.6  : Questionable reliability
+• α < 0.6  : Poor reliability
+
+Corrected Item-Total Correlations:
+• r ≥ 0.3  : Good item discrimination
+• r < 0.3  : Consider removing item
+
+Behavioral Intention Scale Interpretation:
+• Mean ≥ 4.0 : Strong intentions (high adoption likelihood)
+• Mean 3.5-3.9 : Moderate-high intentions (good adoption likelihood)
+• Mean 3.0-3.4 : Moderate intentions (neutral adoption likelihood)
+• Mean < 3.0 : Weak intentions (low adoption likelihood)
+
+BI Components:
+• BI1: Future usage intention (6-month timeline commitment)
+• BI2: Regular usage plans (sustained engagement commitment)
+• BI3: Recommendation intention (word-of-mouth/viral potential)
+
+GameFi Behavioral Research Implications:
+• Strong BI scores predict actual GameFi adoption behavior
+• BI1 shows near-term conversion probability
+• BI2 indicates long-term engagement potential
+• BI3 reveals viral marketing and organic growth potential
+• High BI-Habit correlation suggests behavioral consistency
+• Intention-behavior gap analysis identifies conversion barriers
+• Timeline analysis helps predict adoption velocity
+
+Process finished with exit code 0

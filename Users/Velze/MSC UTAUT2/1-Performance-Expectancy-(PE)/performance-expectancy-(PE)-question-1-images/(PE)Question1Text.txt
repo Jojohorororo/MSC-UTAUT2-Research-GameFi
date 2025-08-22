@@ -1,0 +1,54 @@
+\MSC UTAUT2\1-Performance-Expectancy-(PE)\Using-GameFi-platforms-improves-my-ability-to-earn-financial-rewards-through-gaming.py" 
+Could not find platform independent libraries <prefix>
+TESTING CLEAN SURVEY ANALYSIS CODE
+==================================================
+ANALYSIS: Using GameFi platforms improves my ability to earn financial rewards through gaming.
+============================================================
+
+RESULTS:
+Mean: 3.92
+SD: 0.95
+Total Responses: 516
+
+Response Distribution:
+  1 (Strongly Disagree): 13 responses (2.5%)
+  2 (Disagree): 19 responses (3.7%)
+  3 (Neutral): 120 responses (23.3%)
+  4 (Agree): 210 responses (40.7%)
+  5 (Strongly Agree): 154 responses (29.8%)
+
+SUMMARY:
+  Total Disagree: 32 (6.2%)
+  Neutral: 120 (23.3%)
+  Total Agree: 364 (70.5%)
+
+INTERPRETATION:
+MOSTLY AGREE - People generally agree
+
+CREATING VISUALIZATIONS...
+============================================================
+
+1. Basic Response Distribution Chart
+
+2. Distribution Curve/Histogram
+Distribution Analysis:
+   • Skewness: -0.803 (0 = symmetric, <0 = left-skewed, >0 = right-skewed)
+   • Kurtosis: 0.590 (0 = normal, >0 = peaked, <0 = flat)
+   • Normality Test (Shapiro-Wilk): p = 0.0000
+     ** Data may not be normally distributed (p ≤ 0.05)
+
+3. Box Plot Analysis (FIXED - No More Overlapping!)
+Box Plot Insights:
+   ** Mean ≈ Median (3.92 ≈ 4.00): Symmetric distribution
+   • IQR = 2.00: High variability - wide range of opinions
+   • 50% of responses fall between 3.00 and 5.00
+   • Distribution shape: symmetric
+   ** No outliers detected - all responses within expected range
+
+All visualizations created successfully!
+
+Analysis Complete
+Quick Summary: MOSTLY AGREE - People generally agree
+Mean: 3.92 | SD: 0.95
+
+Process finished with exit code 0

@@ -1,0 +1,111 @@
+\MSC UTAUT2\Cronbach's Alpha\4.Cronbach's Alpha Facilitating-Conditions-(FC).py" 
+Could not find platform independent libraries <prefix>
+=================================================================
+CRONBACH'S ALPHA ANALYSIS - FACILITATING CONDITIONS (FC)
+=================================================================
+Loading data...
+Current directory: C:\Users\Velze\PyCharmMiscProject\Users\Velze\MSC UTAUT2\Cronbach's Alpha
+Files in current directory:
+  📊 effort expectancy (EE).xlsx
+  📊 facilitationconditions FC.xlsx
+  📊 performance expect PE.xlsx
+  📊 socialinfluence SI.xlsx
+✓ Data loaded successfully from 'facilitationconditions FC.xlsx': 516 participants
+✓ Found 4 Facilitating Conditions items
+
+Facilitating Conditions Items:
+FC1: I have the necessary resources (hardware, internet connection) to use GameFi platforms
+FC2: I have the knowledge necessary to use GameFi platforms (blockchain, cryptocurrency basics)
+FC3: I can get help from others when I have difficulties using GameFi platforms
+FC4: The costs associated with GameFi platforms are reasonable (gas fees, initial investment)
+
+Original response distribution:
+FC1: {'Strongly Agree': 239, 'Agree': 130, 'Neither Agree/Disagree': 65, 'Disagree': 55, 'Strongly Disagree': 27}
+FC2: {'Strongly Agree': 210, 'Agree': 202, 'Neither Agree/Disagree': 69, 'Disagree': 20, 'Strongly Disagree': 15}
+FC3: {'Agree': 214, 'Strongly Agree': 193, 'Neither Agree/Disagree': 82, 'Disagree': 16, 'Strongly Disagree': 11}
+FC4: {'Agree': 198, 'Strongly Agree': 173, 'Neither Agree/Disagree': 99, 'Disagree': 32, 'Strongly Disagree': 14}
+
+Converting responses to numeric scale (1-5)...
+✓ Final dataset: 516 complete responses
+
+=================================================================
+DESCRIPTIVE STATISTICS
+=================================================================
+           FC1      FC2      FC3      FC4
+count  516.000  516.000  516.000  516.000
+mean     3.967    4.109    4.089    3.938
+std      1.220    0.973    0.918    1.009
+min      1.000    1.000    1.000    1.000
+25%      3.000    4.000    4.000    3.000
+50%      4.000    4.000    4.000    4.000
+75%      5.000    5.000    5.000    5.000
+max      5.000    5.000    5.000    5.000
+
+=================================================================
+RELIABILITY ANALYSIS RESULTS
+=================================================================
+Cronbach's Alpha: 0.8364
+Reliability Level: Good
+
+Number of Items: 4
+Number of Cases: 516
+
+Item   Corrected Item-Total Cronbach's α if
+       Correlation          Item Deleted   
+---------------------------------------------
+FC1             0.5810          0.8461
+FC2             0.7614          0.7540
+FC3             0.7432          0.7661
+FC4             0.6301          0.8090
+
+=================================================================
+ITEM ANALYSIS
+=================================================================
+Item   Mean     Std Dev    Variance  
+-----------------------------------
+FC1     3.967    1.220    1.488
+FC2     4.109    0.973    0.947
+FC3     4.089    0.918    0.843
+FC4     3.938    1.009    1.018
+
+=================================================================
+FACILITATING CONDITIONS SCALE EVALUATION
+=================================================================
+Overall Facilitating Conditions Mean: 4.026
+Interpretation: Strong facilitating conditions for GameFi adoption
+
+Facilitating Conditions Breakdown:
+FC1 (Resources - hardware/internet): 3.967
+FC2 (Knowledge - blockchain/crypto): 4.109
+FC3 (Support - help from others): 4.089
+FC4 (Affordability - reasonable costs): 3.938
+
+Strongest Facilitating Condition: FC2 (M = 4.109)
+Weakest Facilitating Condition: FC4 (M = 3.938)
+
+=================================================================
+INTERPRETATION GUIDELINES
+=================================================================
+Cronbach's Alpha Interpretation:
+• α ≥ 0.9  : Excellent reliability
+• α ≥ 0.8  : Good reliability
+• α ≥ 0.7  : Acceptable reliability
+• α ≥ 0.6  : Questionable reliability
+• α < 0.6  : Poor reliability
+
+Corrected Item-Total Correlations:
+• r ≥ 0.3  : Good item discrimination
+• r < 0.3  : Consider removing item
+
+Facilitating Conditions Scale Interpretation:
+• Mean ≥ 4.0 : Strong facilitating conditions
+• Mean 3.0-3.9 : Moderate facilitating conditions
+• Mean < 3.0 : Weak facilitating conditions
+
+FC Components:
+• FC1: Technical resources (hardware/internet)
+• FC2: Knowledge resources (blockchain/crypto understanding)
+• FC3: Social resources (support from others)
+• FC4: Financial resources (cost considerations)
+
+Process finished with exit code 0

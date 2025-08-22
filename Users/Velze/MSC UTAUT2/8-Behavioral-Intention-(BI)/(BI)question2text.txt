@@ -1,0 +1,54 @@
+\MSC UTAUT2\8-Behavioral-Intention-(BI)\behavioral-intention-(BI)-question2.py" 
+Could not find platform independent libraries <prefix>
+TESTING CLEAN SURVEY ANALYSIS CODE
+==================================================
+ANALYSIS: I plan to use GameFi platforms regularly in the future.
+============================================================
+
+RESULTS:
+Mean: 4.14
+SD: 1.00
+Total Responses: 516
+
+Response Distribution:
+  1 (Strongly Disagree): 17 responses (3.3%)
+  2 (Disagree): 16 responses (3.1%)
+  3 (Neutral): 76 responses (14.7%)
+  4 (Agree): 176 responses (34.1%)
+  5 (Strongly Agree): 231 responses (44.8%)
+
+SUMMARY:
+  Total Disagree: 33 (6.4%)
+  Neutral: 76 (14.7%)
+  Total Agree: 407 (78.9%)
+
+INTERPRETATION:
+STRONGLY AGREE - High agreement
+
+CREATING VISUALIZATIONS...
+============================================================
+
+1. Basic Response Distribution Chart
+
+2. Distribution Curve/Histogram
+Distribution Analysis:
+   • Skewness: -1.264 (0 = symmetric, <0 = left-skewed, >0 = right-skewed)
+   • Kurtosis: 1.379 (0 = normal, >0 = peaked, <0 = flat)
+   • Normality Test (Shapiro-Wilk): p = 0.0000
+     ** Data may not be normally distributed (p ≤ 0.05)
+
+3. Box Plot Analysis (FIXED - No More Overlapping!)
+Box Plot Insights:
+   ** Mean > Median (4.14 > 4.00): Right-skewed (more high scores)
+   • IQR = 1.00: Moderate variability - reasonable spread in responses
+   • 50% of responses fall between 4.00 and 5.00
+   • Distribution shape: right-skewed
+   ** Potential outliers detected: 33 responses outside normal range
+
+All visualizations created successfully!
+
+Analysis Complete
+Quick Summary: STRONGLY AGREE - High agreement
+Mean: 4.14 | SD: 1.00
+
+Process finished with exit code 0

@@ -1,0 +1,8 @@
+EE4 is the "problem" item:
+
+Still acceptable (correlation > 0.3)
+Much lower correlation (0.56 vs 0.82+ for others)
+Removing EE4 would increase α to 0.9187 (from "Good" to "Excellent")
+
+"The Effort Expectancy scale demonstrated good internal consistency reliability (Cronbach's α = .886, n = 516). All four items showed adequate corrected item-total correlations ranging from .556 to .832, indicating good discrimination."
+

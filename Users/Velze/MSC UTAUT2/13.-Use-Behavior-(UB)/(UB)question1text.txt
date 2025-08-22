@@ -1,0 +1,88 @@
+C:\Users\Velze\PyCharmMiscProject\.venv\Scripts\python.exe "C:\Users\Velze\PyCharmMiscProject\Users\Velze\MSC UTAUT2\13\test pie.py" 
+Could not find platform independent libraries <prefix>
+USER BEHAVIOR PIE CHART ANALYSIS - ACTUAL SURVEY DATA
+============================================================
+
+1. USAGE FREQUENCY ANALYSIS
+
+USER BEHAVIOR ANALYSIS: How often do you currently use GameFi platforms?
+============================================================
+Total Responses: 516
+
+Detailed Breakdown:
+  1. Never: 9 responses (1.7%)
+  2. Monthly or less: 27 responses (5.2%)
+  3. A few times a month: 19 responses (3.7%)
+  4. Weekly: 43 responses (8.3%)
+  5. Several times a week: 137 responses (26.6%)
+  6. Daily: 281 responses (54.5%)
+
+Most Common Response: Daily (54.5%)
+
+============================================================
+
+2. TIME SPENT ANALYSIS
+
+USER BEHAVIOR ANALYSIS: On average, how many hours per week do you spend on GameFi platforms?
+============================================================
+Total Responses: 516
+
+Detailed Breakdown:
+  1. 0 hours: 10 responses (1.9%)
+  2. Less than 1 hour: 35 responses (6.8%)
+  3. 1-5 hours: 152 responses (29.5%)
+  4. 6-10 hours: 140 responses (27.1%)
+  5. 11-20 hours: 77 responses (14.9%)
+  6. More than 20 hours: 102 responses (19.8%)
+
+Most Common Response: 1-5 hours (29.5%)
+
+============================================================
+
+3. COMBINED ENGAGEMENT ANALYSIS
+COMPREHENSIVE USER ENGAGEMENT ANALYSIS
+============================================================
+
+USER BEHAVIOR ANALYSIS: How often do you currently use GameFi platforms?
+============================================================
+Total Responses: 516
+
+Detailed Breakdown:
+  1. Never: 9 responses (1.7%)
+  2. Monthly or less: 27 responses (5.2%)
+  3. A few times a month: 19 responses (3.7%)
+  4. Weekly: 43 responses (8.3%)
+  5. Several times a week: 137 responses (26.6%)
+  6. Daily: 281 responses (54.5%)
+
+Most Common Response: Daily (54.5%)
+
+============================================================
+
+USER BEHAVIOR ANALYSIS: On average, how many hours per week do you spend on GameFi platforms?
+============================================================
+Total Responses: 516
+
+Detailed Breakdown:
+  1. 0 hours: 10 responses (1.9%)
+  2. Less than 1 hour: 35 responses (6.8%)
+  3. 1-5 hours: 152 responses (29.5%)
+  4. 6-10 hours: 140 responses (27.1%)
+  5. 11-20 hours: 77 responses (14.9%)
+  6. More than 20 hours: 102 responses (19.8%)
+
+Most Common Response: 1-5 hours (29.5%)
+
+============================================================
+ENGAGEMENT INSIGHTS:
+Average Usage Frequency Score: 4.16/5.0
+Average Time Investment Score: 3.06/5.0
+Overall Engagement Score: 3.61/5.0
+Engagement Level: High Engagement
+
+Actual Survey Analysis Complete!
+Total respondents for usage frequency: 516
+Total respondents for time spent: 516
+All pie charts generated with real survey data!
+
+Process finished with exit code 0

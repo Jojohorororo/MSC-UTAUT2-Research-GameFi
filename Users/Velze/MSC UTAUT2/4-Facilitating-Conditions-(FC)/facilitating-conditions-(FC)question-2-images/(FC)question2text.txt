@@ -1,0 +1,54 @@
+\MSC UTAUT2\4-Facilitating-Conditions-(FC)\facilitating-conditions-(FC)-question2.py" 
+Could not find platform independent libraries <prefix>
+TESTING CLEAN SURVEY ANALYSIS CODE
+==================================================
+ANALYSIS: I have the knowledge necessary to use GameFi platforms (blockchain, cryptocurrency basics).
+============================================================
+
+RESULTS:
+Mean: 4.11
+SD: 0.97
+Total Responses: 516
+
+Response Distribution:
+  1 (Strongly Disagree): 15 responses (2.9%)
+  2 (Disagree): 20 responses (3.9%)
+  3 (Neutral): 69 responses (13.4%)
+  4 (Agree): 202 responses (39.1%)
+  5 (Strongly Agree): 210 responses (40.7%)
+
+SUMMARY:
+  Total Disagree: 35 (6.8%)
+  Neutral: 69 (13.4%)
+  Total Agree: 412 (79.8%)
+
+INTERPRETATION:
+STRONGLY AGREE - High agreement
+
+CREATING VISUALIZATIONS...
+============================================================
+
+1. Basic Response Distribution Chart
+
+2. Distribution Curve/Histogram
+Distribution Analysis:
+   • Skewness: -1.230 (0 = symmetric, <0 = left-skewed, >0 = right-skewed)
+   • Kurtosis: 1.406 (0 = normal, >0 = peaked, <0 = flat)
+   • Normality Test (Shapiro-Wilk): p = 0.0000
+     ** Data may not be normally distributed (p ≤ 0.05)
+
+3. Box Plot Analysis (FIXED - No More Overlapping!)
+Box Plot Insights:
+   ** Mean > Median (4.11 > 4.00): Right-skewed (more high scores)
+   • IQR = 1.00: Moderate variability - reasonable spread in responses
+   • 50% of responses fall between 4.00 and 5.00
+   • Distribution shape: right-skewed
+   ** Potential outliers detected: 35 responses outside normal range
+
+All visualizations created successfully!
+
+Analysis Complete
+Quick Summary: STRONGLY AGREE - High agreement
+Mean: 4.11 | SD: 0.97
+
+Process finished with exit code 0
