@@ -25,6 +25,7 @@ GameFi represents the intersection of gaming and decentralized finance (DeFi), w
 
 📁 Project Structure
 MSC UTAUT2/
+
 ├── 1-Performance-Expectancy-(PE)/     # Expected performance benefits
 
 ├── 2-Effort-Expectancy-(EE)/          # Perceived ease of use
