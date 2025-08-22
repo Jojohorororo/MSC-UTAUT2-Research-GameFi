@@ -26,18 +26,31 @@ GameFi represents the intersection of gaming and decentralized finance (DeFi), w
 📁 Project Structure
 MSC UTAUT2/
 ├── 1-Performance-Expectancy-(PE)/     # Expected performance benefits
+
 ├── 2-Effort-Expectancy-(EE)/          # Perceived ease of use
+
 ├── 3-Social-Influence-(SI)/           # Social factors affecting adoption
+
 ├── 4-Facilitating-Conditions-(FC)/    # Organizational/technical support
+
 ├── 5-Hedonic-Motivation-(HM)/         # Enjoyment and pleasure factors
+
 ├── 6-Price-Value-(PV)/                # Cost-benefit perceptions
+
 ├── 7-Habit-(HB)/                      # Habitual usage patterns
+
 ├── 8-Behavioral-Intention-(BI)/       # Intention to use GameFi
+
 ├── 9-Economic-Motivation-(EM)/        # Financial incentives
+
 ├── 10-Risk-Perception-(RP)/           # Perceived risks
+
 ├── 11-Trust-in-Technology-(TT)/       # Technology trust factors
+
 ├── 12-Regulatory-Compliance-Risks-(RC)/ # Legal/regulatory concerns
+
 ├── 13-Use-Behavior-(UB)/              # Actual usage behavior
+
 └── Cronbach's Alpha/                  # Reliability analysis
 
 ## 🔬 Methodology
