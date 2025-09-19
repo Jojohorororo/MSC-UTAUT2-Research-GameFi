@@ -1,0 +1,85 @@
+C:\Users\Velze\PyCharmMiscProject\.venv\Scripts\python.exe "C:\Users\Velze\PyCharmMiscProject\Users\Velze\MSC UTAUT2\PLS-SEM Analysis test 2\tt_rp_moderation.py" 
+Could not find platform independent libraries <prefix>
+🚀 Starting TT × (RP → BI) Moderation Analysis...
+Research Question: Does Technology Trust moderate the Risk Perception → Behavioral Intention relationship?
+✅ Data loaded: 516 participants × 50 variables
+
+📊 Computing construct scores...
+✅ Moderation analysis data: 516 complete cases
+
+Descriptive Statistics:
+Trust in Technology (TT): M=3.433, SD=1.188
+Risk Perception (RP): M=4.016, SD=0.908
+Behavioral Intention (BI): M=4.092, SD=0.952
+
+📐 Mean-centering variables for moderation analysis...
+✅ Centered TT: M=-0.000000, SD=1.188
+✅ Centered RP: M=0.000000, SD=0.908
+✅ Interaction TT×RP: M=0.223652, SD=1.484
+
+======================================================================
+MODERATION ANALYSIS: TT × (RP → BI)
+======================================================================
+
+Step 1: Main Effects Model
+Model: BI = β₀ + β₁(RP) + β₂(TT) + ε
+R² (Main Effects) = 0.3866
+Adjusted R² = 0.3842
+β₁ (RP → BI): +0.6166
+β₂ (TT → BI): +0.0910
+
+Step 2: Moderation Model
+Model: BI = β₀ + β₁(RP) + β₂(TT) + β₃(TT×RP) + ε
+R² (Moderation Model) = 0.4287
+Adjusted R² = 0.4254
+ΔR² = 0.0421
+β₁ (RP → BI): +0.4693
+β₂ (TT → BI): +0.1339
+β₃ (TT×RP → BI): -0.1592
+
+Interaction Significance Test:
+t(512) = -6.143, p = 0.0000 ***
+
+======================================================================
+SIMPLE SLOPES ANALYSIS
+======================================================================
+Low TT (−1 SD): -1.188 from mean
+High TT (+1 SD): 1.188 from mean
+
+Simple Slopes:
+Effect of RP → BI when TT is LOW:  +0.6585
+Effect of RP → BI when TT is HIGH: +0.2802
+Difference in slopes: -0.3783
+
+📊 MODERATION INTERPRETATION:
+✅ Significant NEGATIVE moderation detected:
+   • Trust in Technology BUFFERS the Risk Perception → BI relationship
+   • Higher trust users are LESS affected by risk when forming intentions
+   • Supports 'trust reduces risk impact' interpretation
+
+📊 Creating moderation visualization...
+
+💾 Results saved:
+   • tt_rp_moderation_results.xlsx
+   • tt_rp_simple_slopes.xlsx
+   • tt_rp_moderation_plot.png
+
+======================================================================
+THEORETICAL IMPLICATIONS FOR GAMEFI ADOPTION
+======================================================================
+🔍 MODERATION DETECTED: Trust in Technology significantly moderates Risk Perception effects
+
+📊 TRUST BUFFERING PATTERN:
+   • High-trust GameFi users show WEAKER risk-intention relationships
+   • Technology confidence reduces risk concerns
+   • Traditional 'trust reduces perceived risk' mechanism
+
+🎉 TT × (RP → BI) MODERATION ANALYSIS COMPLETE!
+
+Key Findings:
+   • Main model R² = 0.387
+   • Moderation model R² = 0.429
+   • ΔR² from interaction = 0.042
+   • Interaction effect β₃ = -0.159 ***
+
+Process finished with exit code 0

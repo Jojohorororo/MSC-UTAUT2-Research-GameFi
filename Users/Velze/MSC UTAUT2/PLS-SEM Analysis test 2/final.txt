@@ -1,0 +1,119 @@
+C:\Users\Velze\PyCharmMiscProject\.venv\Scripts\python.exe "C:\Users\Velze\PyCharmMiscProject\Users\Velze\MSC UTAUT2\PLS-SEM Analysis test 2\final.py" 
+Could not find platform independent libraries <prefix>
+🚀 Starting Experience Moderation Analysis - Final GameFi Theoretical Insights...
+Research Questions: How does GameFi experience moderate key UTAUT2 relationships?
+✅ Data loaded: 516 participants × 50 variables
+
+📊 Computing construct scores...
+
+📊 Processing GameFi Experience variable...
+Experience Distribution:
+  Level 1.0: 30 (5.8%) - Have tried GameFi but not a regular user
+  Level 2.0: 76 (14.7%) - Currently use GameFi platforms occasionally (1-3 times a month)
+  Level 3.0: 388 (75.2%) - Currently use GameFi platforms regularly (weekly or more)
+
+✅ Complete moderation data: 417 cases
+
+📐 Mean-centering variables for moderation analysis...
+✅ Experience: M=2.71, SD=0.58
+
+================================================================================
+MODERATION 1: Experience × (Effort Expectancy → Behavioral Intention)
+================================================================================
+Theory: Learning curve effects - experience should reduce impact of perceived difficulty
+ΔR² = 0.0342
+Interaction: β = -0.3251 ***
+
+================================================================================
+MODERATION 2: Experience × (Social Influence → Behavioral Intention)
+================================================================================
+Theory: Social influence stronger for novices, weaker for experts
+ΔR² = 0.0010
+Interaction: β = +0.0488 ns
+
+================================================================================
+MODERATION 3: Experience × (Facilitating Conditions → Use Behavior)
+================================================================================
+Theory: Facilitating conditions more important for experienced users
+ΔR² = 0.0023
+Interaction: β = -0.0782 ns
+
+================================================================================
+MODERATION 4: Experience × (Habit → Behavioral Intention)
+================================================================================
+Theory: Habit effects stronger for experienced users
+ΔR² = 0.0012
+Interaction: β = -0.0553 ns
+
+================================================================================
+MODERATION 5: Experience × (Habit → Use Behavior)
+================================================================================
+Theory: Habit-behavior link stronger for experienced users
+ΔR² = 0.0057
+Interaction: β = -0.1094 ns
+
+================================================================================
+EXPERIENCE MODERATION ANALYSIS SUMMARY
+================================================================================
+
+All Experience Moderation Results:
+1. Experience × (EE → BI)
+   Theory: Learning curve - experience reduces effort impact
+   β = -0.3251 ***
+   ΔR² = 0.0342
+   Result: Supported
+
+2. Experience × (SI → BI)
+   Theory: Social influence stronger for novices
+   β = +0.0488 ns
+   ΔR² = 0.0010
+   Result: Not Supported
+
+3. Experience × (FC → UB)
+   Theory: Facilitating conditions more important for experts
+   β = -0.0782 ns
+   ΔR² = 0.0023
+   Result: Not Supported
+
+4. Experience × (HB → BI)
+   Theory: Habit effects stronger for experienced users
+   β = -0.0553 ns
+   ΔR² = 0.0012
+   Result: Not Supported
+
+5. Experience × (HB → UB)
+   Theory: Habit-behavior link stronger for experienced users
+   β = -0.1094 ns
+   ΔR² = 0.0057
+   Result: Not Supported
+
+📊 EXPERIENCE MODERATION SUMMARY:
+Total Experience Moderations Tested: 5
+Supported: 1
+Not Supported: 4
+Support Rate: 20.0%
+
+💾 Results saved to: experience_moderation_results.xlsx
+
+================================================================================
+THEORETICAL IMPLICATIONS FOR GAMEFI ADOPTION
+================================================================================
+🔍 EXPERIENCE EFFECTS DETECTED:
+   • GameFi expertise shapes adoption mechanisms
+   • User sophistication moderates traditional UTAUT2 relationships
+   • Learning curve effects evident in GameFi context
+   • Learning curve confirmed: Experienced users less deterred by complexity
+
+🎉 EXPERIENCE MODERATION ANALYSIS COMPLETE!
+
+📋 FINAL ANALYSIS STATUS:
+   • Core Structural Model: ✅ Complete (16/16)
+   • GameFi-Specific Moderation: ✅ Complete (1/1)
+   • Experience Moderations: ✅ Complete (5/5)
+   • Age/Gender Moderations: ⚠️ Excluded (methodological justification)
+
+🏆 COMPREHENSIVE UTAUT2+GAMEFI ANALYSIS COMPLETE!
+   Total meaningful analyses completed: 22/22
+   Ready for thesis discussion and conclusions!
+
+Process finished with exit code 0

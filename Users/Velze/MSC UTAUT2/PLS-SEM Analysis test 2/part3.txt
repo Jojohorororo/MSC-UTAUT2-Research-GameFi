@@ -1,0 +1,117 @@
+C:\Users\Velze\PyCharmMiscProject\.venv\Scripts\python.exe "C:\Users\Velze\PyCharmMiscProject\Users\Velze\MSC UTAUT2\PLS-SEM Analysis test 2\part3.py" 
+Could not find platform independent libraries <prefix>
+🚀 Starting UTAUT2 Complete v1 PLS-SEM Analysis...
+✅ Data loaded: 516 participants × 50 variables
+
+📊 Converting behavioral measures to numeric for UB construct...
+✅ UB behavioral measures converted successfully
+✅ Complete model prepared: 516 participants
+📊 Constructs: 13 latent constructs (including UB)
+
+🎯 USE BEHAVIOR (UB) CONSTRUCT ANALYSIS
+============================================================
+UB Construct Descriptives:
+UB_Frequency: M=5.16, SD=1.23, Range=1-6
+UB_Hours: M=4.06, SD=1.30, Range=1-6
+Inter-indicator correlation: r = 0.537
+UB Construct: M=0.00, SD=0.88
+UB Construct Reliability (Spearman-Brown): 0.699
+UB Reliability Assessment: ⚠️ Acceptable
+
+🏗️ COMPLETE STRUCTURAL MODEL ANALYSIS (v1)
+============================================================
+Complete v1 Structural Model Paths:
+📊 Direct Effects to BI (10 paths):
+- PE → BI, EE → BI, SI → BI, FC → BI, HM → BI
+- PV → BI, HB → BI, EM → BI, TT → BI, RP → BI
+🎯 Direct Effects to UB (3 paths):
+- BI → UB, HB → UB, FC → UB
+
+PART 1: PATHS TO BEHAVIORAL INTENTION
+--------------------------------------------------
+R² for BI = 0.712
+Adjusted R² for BI = 0.706
+
+Path Coefficients to BI:
+PE → BI: β = +0.071 * (Small)
+EE → BI: β = +0.054 * (Small)
+SI → BI: β = +0.150 ** (Medium)
+FC → BI: β = +0.033 ns (Small)
+HM → BI: β = +0.094 * (Small)
+PV → BI: β = +0.249 ** (Medium)
+HB → BI: β = +0.355 ** (Large)
+EM → BI: β = -0.006 ns (Small)
+TT → BI: β = -0.115 ** (Small)
+RP → BI: β = +0.098 * (Small)
+
+PART 2: PATHS TO USE BEHAVIOR
+--------------------------------------------------
+R² for UB = 0.072
+Adjusted R² for UB = 0.066
+
+Path Coefficients to UB:
+BI → UB: β = +0.230 ** (Medium)
+HB → UB: β = +0.116 ** (Small)
+FC → UB: β = -0.135 ** (Small)
+
+EFFECT SIZES (f²)
+------------------------------
+For BI:
+PE: f² = 0.007 (None)
+EE: f² = 0.007 (None)
+SI: f² = 0.039 (Small)
+FC: f² = 0.001 (None)
+HM: f² = 0.010 (None)
+PV: f² = 0.071 (Small)
+HB: f² = 0.216 (Medium)
+EM: f² = 0.000 (None)
+TT: f² = 0.033 (Small)
+RP: f² = 0.016 (None)
+
+For UB:
+BI: f² = 0.023 (Small)
+HB: f² = 0.007 (None)
+FC: f² = 0.013 (None)
+
+💾 Complete v1 results saved to: complete_v1_results.xlsx
+
+📋 COMPLETE v1 HYPOTHESIS TESTING
+============================================================
+COMPLETE v1 HYPOTHESIS TESTING RESULTS:
+============================================================
+PATHS TO BEHAVIORAL INTENTION:
+HPE→BI: PE → BI = +0.071* (Expected: +) - Supported
+HEE→BI: EE → BI = +0.054* (Expected: +) - Supported
+HSI→BI: SI → BI = +0.150** (Expected: +) - Supported
+HFC→BI: FC → BI = +0.033ns (Expected: +) - Not Supported
+HHM→BI: HM → BI = +0.094* (Expected: +) - Supported
+HPV→BI: PV → BI = +0.249** (Expected: +) - Supported
+HHB→BI: HB → BI = +0.355** (Expected: +) - Supported
+HEM→BI: EM → BI = -0.006ns (Expected: +) - Not Supported
+HTT→BI: TT → BI = -0.115** (Expected: +) - Not Supported
+HRP→BI: RP → BI = +0.098* (Expected: -) - Not Supported
+
+PATHS TO USE BEHAVIOR:
+HBI→UB: BI → UB = +0.230** (Expected: +) - Supported
+HHB→UB: HB → UB = +0.116** (Expected: +) - Supported
+HFC→UB: FC → UB = -0.135** (Expected: +) - Not Supported
+
+📊 OVERALL v1 MODEL SUMMARY:
+Total Hypotheses: 13
+Supported: 8
+Not Supported: 5
+Support Rate: 61.5%
+
+Model Fit:
+R² (BI) = 0.712
+R² (UB) = 0.072
+R² Quality: BI (Substantial), UB (Weak)
+
+🎉 COMPLETE v1 ANALYSIS FINISHED!
+
+Next Steps:
+- v1 Model is now complete with UB structural paths
+- Ready to proceed to v2 (GameFi inter-construct relationships)
+- Consider moderation analysis (v3) if desired
+
+Process finished with exit code 0

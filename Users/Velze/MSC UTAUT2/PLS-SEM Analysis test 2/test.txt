@@ -1,0 +1,256 @@
+C:\Users\Velze\PyCharmMiscProject\.venv\Scripts\python.exe "C:\Users\Velze\PyCharmMiscProject\Users\Velze\MSC UTAUT2\PLS-SEM Analysis test 2\test.py" 
+Could not find platform independent libraries <prefix>
+🚀 Starting UTAUT2 Data Cleaning Process...
+✅ File loaded successfully: 534 rows × 50 columns
+
+🔍 Identifying data vs text rows...
+Sample of last rows to identify cut-off:
+[nan, nan, nan, nan, nan, nan, nan, 'Using GameFi platforms improves my ability to earn financial rewards through gaming.', 'q1-pe', '1.\xa0Performance Expectancy (PE)']
+✅ Filtered to 516 actual data rows
+
+🔧 Cleaning column names...
+✅ Column names updated successfully
+
+🔢 Converting Likert responses to numeric scale...
+
+Converting PE1:
+  Original values: ['Agree', 'Strongly Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting PE2:
+  Original values: ['Agree', 'Strongly Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting PE3:
+  Original values: ['Agree', 'Strongly Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting PE4:
+  Original values: ['Agree', 'Strongly Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting PE5:
+  Original values: ['Agree', 'Strongly Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting EE1:
+  Original values: ['Agree', 'Disagree', 'Strongly Agree']...
+  ✅ Converted successfully
+
+Converting EE2:
+  Original values: ['Agree', 'Disagree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting EE3:
+  Original values: ['Agree', 'Neither Agree/Disagree', 'Strongly Agree']...
+  ✅ Converted successfully
+
+Converting EE4:
+  Original values: ['Agree', 'Strongly Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting SI1:
+  Original values: ['Agree', 'Neither Agree/Disagree', 'Strongly Agree']...
+  ✅ Converted successfully
+
+Converting SI2:
+  Original values: ['Agree', 'Strongly Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting SI3:
+  Original values: ['Agree', 'Neither Agree/Disagree', 'Strongly Agree']...
+  ✅ Converted successfully
+
+Converting FC1:
+  Original values: ['Strongly Agree', 'Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting FC2:
+  Original values: ['Strongly Agree', 'Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting FC3:
+  Original values: ['Agree', 'Strongly Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting FC4:
+  Original values: ['Agree', 'Strongly Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting HM1:
+  Original values: ['Agree', 'Strongly Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting HM2:
+  Original values: ['Agree', 'Strongly Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting HM3:
+  Original values: ['Agree', 'Neither Agree/Disagree', 'Strongly Agree']...
+  ✅ Converted successfully
+
+Converting HM4:
+  Original values: ['Strongly Agree', 'Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting PV1:
+  Original values: ['Agree', 'Strongly Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting PV2:
+  Original values: ['Agree', 'Strongly Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting PV3:
+  Original values: ['Strongly Agree', 'Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting HB1:
+  Original values: ['Agree', 'Strongly Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting HB2:
+  Original values: ['Agree', 'Strongly Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting HB3:
+  Original values: ['Agree', 'Strongly Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting HB4:
+  Original values: ['Agree', 'Strongly Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting BI1:
+  Original values: ['Strongly Agree', 'Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting BI2:
+  Original values: ['Strongly Agree', 'Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting BI3:
+  Original values: ['Strongly Agree', 'Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting EM1:
+  Original values: ['Strongly Agree', 'Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting EM2:
+  Original values: ['Strongly Agree', 'Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting EM3:
+  Original values: ['Strongly Agree', 'Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting RP1:
+  Original values: ['Strongly Agree', 'Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting RP2:
+  Original values: ['Strongly Agree', 'Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting RP3:
+  Original values: ['Strongly Agree', 'Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting RP4:
+  Original values: ['Strongly Agree', 'Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting TT1:
+  Original values: ['Strongly Agree', 'Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting TT2:
+  Original values: ['Strongly Agree', 'Agree', 'Neither Agree/Disagree']...
+  ✅ Converted successfully
+
+Converting TT3:
+  Original values: ['Strongly Disagree', 'Strongly Agree', 'Disagree']...
+  ✅ Converted successfully
+
+Converting RC1:
+  Original values: ['Strongly Agree', 'Neither Agree/Disagree', 'Agree']...
+  ✅ Converted successfully
+
+Converting RC2:
+  Original values: ['Neither Agree/Disagree', 'Strongly Agree', 'Agree']...
+  ✅ Converted successfully
+
+📊 Conversion Summary:
+  Successfully converted: 42 columns
+  Conversion errors: 0 values
+
+👥 Processing demographic variables...
+
+UB1_UseFreq: 6 unique values
+  Top 3: ['Daily', 'Several times a week', 'Weekly']
+
+UB2_WeeklyHours: 6 unique values
+  Top 3: ['1-5 hours', '6-10 hours', 'More than 20 hours']
+
+Age: 5 unique values
+  Top 3: ['18-24', '25-34', '35-44']
+
+Gender: 3 unique values
+  Top 3: ['Male', 'Female', 'Prefer not to say']
+
+Education: 4 unique values
+  Top 3: ['Some College', 'High School or less', "Bachelor's Degree"]
+
+Income: 6 unique values
+  Top 3: ['0-499', '500-999', '1000-2999']
+
+GameFiExp: 4 unique values
+  Top 3: ['Currently use GameFi platforms regularly (weekly or more)', 'Currently use GameFi platforms occasionally (1-3 times a month)', 'Have tried GameFi but not a regular user']
+
+Location: 11 unique values
+  Top 3: ['Southeast Asia (Philippines, Thailand, Vietnam, etc.)', 'Latin America and the Caribbean', 'South Asia (India, Pakistan, Bangladesh, etc.)']
+
+🔍 Performing data quality checks...
+✅ No missing values in Likert items
+
+📊 Likert scale range check:
+  PE1: range 1-5
+  PE2: range 1-5
+  PE3: range 1-5
+  PE4: range 1-5
+  PE5: range 1-5
+
+🧮 Computing construct means...
+  PE: M=3.92, SD=0.83
+  EE: M=3.38, SD=1.07
+  SI: M=3.69, SD=0.91
+  FC: M=4.03, SD=0.85
+  HM: M=3.86, SD=0.87
+  PV: M=4.02, SD=0.87
+  HB: M=3.92, SD=0.95
+  BI: M=4.09, SD=0.95
+  EM: M=4.13, SD=0.94
+  RP: M=4.02, SD=0.91
+  TT: M=3.43, SD=1.19
+  RC: M=3.31, SD=1.25
+
+💾 Saving cleaned data...
+✅ Cleaned data saved to: utaut2_cleaned_data.xlsx
+✅ Construct means saved to: utaut2_construct_means.xlsx
+
+📋 FINAL SUMMARY:
+  📊 Dataset: 516 participants × 50 variables
+  🎯 Likert items: 42 (converted to 1-5 scale)
+  📊 Behavioral/Demographics: 8 variables
+  🏗️  Constructs: 12 constructs defined
+  💾 Output files: utaut2_cleaned_data.xlsx, utaut2_construct_means.xlsx
+
+🎉 Data cleaning completed successfully!
+
+📝 Next steps:
+  1. Review the cleaned data file
+  2. Check construct means for reasonableness
+  3. Ready for PLS-SEM analysis!
+
+Process finished with exit code 0

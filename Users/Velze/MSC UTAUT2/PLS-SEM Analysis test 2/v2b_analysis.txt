@@ -1,0 +1,114 @@
+C:\Users\Velze\PyCharmMiscProject\.venv\Scripts\python.exe "C:\Users\Velze\PyCharmMiscProject\Users\Velze\MSC UTAUT2\PLS-SEM Analysis test 2\v2b_analysis.py" 
+Could not find platform independent libraries <prefix>
+🚀 Starting UTAUT2 v2b Analysis - GameFi Inter-Construct Relationships...
+✅ Data loaded: 516 participants × 50 variables
+
+📊 Computing construct scores...
+✅ PE: 5 items, M=3.919
+✅ EE: 4 items, M=3.376
+✅ SI: 3 items, M=3.691
+✅ FC: 4 items, M=4.026
+✅ HM: 4 items, M=3.859
+✅ PV: 3 items, M=4.019
+✅ HB: 4 items, M=3.924
+✅ BI: 3 items, M=4.092
+✅ EM: 3 items, M=4.129
+✅ RP: 4 items, M=4.016
+✅ TT: 3 items, M=3.433
+✅ RC: 2 items, M=3.313
+
+🔄 Converting behavioral measures for UB construct...
+✅ UB construct: M=-0.000, SD=0.851
+
+🗂️ v2b STRUCTURAL MODEL ANALYSIS
+======================================================================
+📋 v2b Model: v2a paths + GameFi inter-construct relationships
+   New paths: TT → RP (−), RC → TT (+), RC → RP (−)
+✅ Model data: 429 complete cases
+
+PART 1: GAMEFI INTER-CONSTRUCT RELATIONSHIPS (NEW)
+------------------------------------------------------------
+Path 1: Trust in Technology → Risk Perception
+TT → RP: β = +0.129*** (Expected: −) (Small)
+R² (RP|TT) = 0.030
+
+Path 2: Regulatory Compliance → Trust in Technology
+RC → TT: β = +0.091ns (Expected: +) (Small)
+R² (TT|RC) = 0.009
+
+Path 3: Regulatory Compliance → Risk Perception
+RC → RP: β = +0.394*** (Expected: −) (Large)
+R² (RP|RC) = 0.286
+
+======================================================================
+PART 2: ENHANCED STRUCTURAL MODEL (v2a paths + GameFi effects)
+======================================================================
+
+Enhanced Behavioral Intention Model:
+Predictors: All v2a predictors + potential GameFi mediation effects
+R² for BI (Enhanced Model) = 0.711
+
+Enhanced Use Behavior Model:
+R² for UB (Enhanced Model) = 0.037
+
+======================================================================
+PART 3: MEDIATION ANALYSIS
+======================================================================
+Testing potential mediation paths in GameFi context:
+
+Mediation 1: RC → TT → BI
+Direct effect RC → BI: +0.018
+Indirect effect RC → TT → BI: -0.010
+Total effect: +0.008
+
+Mediation 2: RC → RP → BI
+Direct effect RC → BI: +0.018
+Indirect effect RC → RP → BI: +0.038
+Total effect: +0.056
+
+Mediation 3: TT → RP → BI
+Direct effect TT → BI: -0.106
+Indirect effect TT → RP → BI: +0.012
+Total effect: -0.094
+
+💾 v2b results saved to:
+   - complete_v2b_gamefi_paths.xlsx
+   - v2b_mediation_analysis.xlsx
+
+📋 v2b HYPOTHESIS TESTING - GAMEFI INTER-CONSTRUCTS
+======================================================================
+HTT → RP: +0.129*** (Expected: -) - Not Supported
+HRC → TT: +0.091ns (Expected: +) - Not Supported (ns)
+HRC → RP: +0.394*** (Expected: -) - Not Supported
+
+📊 v2b GAMEFI INTER-CONSTRUCT SUMMARY:
+GameFi Hypotheses: 3
+Supported: 0
+GameFi Support Rate: 0.0%
+
+📊 COMPLETE v2b MODEL SUMMARY:
+Core Model (v2a): 11 BI paths + 3 UB paths = 14 paths
+GameFi Inter-Construct: 3 new paths
+Total v2b Paths Tested: 17 paths
+
+Model Fit:
+R² (BI) = 0.711
+R² (UB) = 0.037
+R² (TT|RC) = 0.009
+R² (RP|TT) = 0.030
+R² (RP|RC) = 0.286
+
+🔍 KEY v2b INSIGHTS:
+⚠️ TT → RP: Unexpected relationship or non-significant
+⚠️ RC → TT: Unexpected relationship or non-significant
+⚠️ RC → RP: Unexpected relationship or non-significant
+
+🎉 v2b ANALYSIS COMPLETE!
+
+Next Steps:
+- Interpret GameFi inter-construct relationships
+- Analyze mediation effects for theoretical implications
+- Consider v3 moderation analysis if desired
+- Compare v2b theoretical insights vs v2a core model
+
+Process finished with exit code 0

@@ -1,0 +1,264 @@
+C:\Users\Velze\PyCharmMiscProject\.venv\Scripts\python.exe "C:\Users\Velze\PyCharmMiscProject\Users\Velze\MSC UTAUT2\PLS-SEM Analysis test 2\part2.py" 
+Could not find platform independent libraries <prefix>
+⚠️  plssem not available, using manual PLS implementation
+🚀 Starting UTAUT2 PLS-SEM Analysis...
+✅ Data loaded: 516 participants × 50 variables
+✅ Prepared data: 516 participants × 42 Likert items
+📊 Constructs: 12 latent constructs
+
+📊 DESCRIPTIVE STATISTICS
+============================================================
+Construct-Level Descriptive Statistics:
+     Mean     SD  Min  Max  Skewness  Kurtosis  N_Items
+PE  3.919  0.833  1.0  5.0    -1.192     1.826      5.0
+EE  3.376  1.069  1.0  5.0    -0.282    -0.897      4.0
+SI  3.691  0.914  1.0  5.0    -0.821     0.455      3.0
+FC  4.026  0.849  1.0  5.0    -1.285     1.845      4.0
+HM  3.859  0.866  1.0  5.0    -1.023     1.148      4.0
+PV  4.019  0.869  1.0  5.0    -1.324     1.895      3.0
+HB  3.924  0.950  1.0  5.0    -1.152     1.147      4.0
+BI  4.092  0.952  1.0  5.0    -1.330     1.679      3.0
+EM  4.129  0.936  1.0  5.0    -1.224     1.135      3.0
+RP  4.016  0.908  1.0  5.0    -1.261     1.595      4.0
+TT  3.433  1.188  1.0  5.0    -0.592    -0.530      3.0
+RC  3.313  1.252  1.0  5.0    -0.266    -0.997      2.0
+💾 Descriptive statistics saved to: descriptive_statistics.xlsx
+
+🔍 MEASUREMENT MODEL ASSESSMENT
+============================================================
+PE:
+  Cronbach's α = 0.930
+  Composite Reliability = 0.908
+  AVE = 0.663
+  Items: 5
+  Quality: α ✅ Excellent, CR ✅ Good, AVE ✅ Good
+
+EE:
+  Cronbach's α = 0.886
+  Composite Reliability = 0.847
+  AVE = 0.586
+  Items: 4
+  Quality: α ✅ Good, CR ✅ Good, AVE ✅ Good
+
+SI:
+  Cronbach's α = 0.804
+  Composite Reliability = 0.705
+  AVE = 0.447
+  Items: 3
+  Quality: α ✅ Good, CR ✅ Good, AVE ⚠️ Low
+
+FC:
+  Cronbach's α = 0.836
+  Composite Reliability = 0.776
+  AVE = 0.467
+  Items: 4
+  Quality: α ✅ Good, CR ✅ Good, AVE ⚠️ Low
+
+HM:
+  Cronbach's α = 0.890
+  Composite Reliability = 0.849
+  AVE = 0.587
+  Items: 4
+  Quality: α ✅ Good, CR ✅ Good, AVE ✅ Good
+
+PV:
+  Cronbach's α = 0.887
+  Composite Reliability = 0.823
+  AVE = 0.608
+  Items: 3
+  Quality: α ✅ Good, CR ✅ Good, AVE ✅ Good
+
+HB:
+  Cronbach's α = 0.924
+  Composite Reliability = 0.897
+  AVE = 0.685
+  Items: 4
+  Quality: α ✅ Excellent, CR ✅ Good, AVE ✅ Good
+
+BI:
+  Cronbach's α = 0.912
+  Composite Reliability = 0.865
+  AVE = 0.681
+  Items: 3
+  Quality: α ✅ Excellent, CR ✅ Good, AVE ✅ Good
+
+EM:
+  Cronbach's α = 0.882
+  Composite Reliability = 0.816
+  AVE = 0.596
+  Items: 3
+  Quality: α ✅ Good, CR ✅ Good, AVE ✅ Good
+
+RP:
+  Cronbach's α = 0.907
+  Composite Reliability = 0.870
+  AVE = 0.626
+  Items: 4
+  Quality: α ✅ Excellent, CR ✅ Good, AVE ✅ Good
+
+TT:
+  Cronbach's α = 0.809
+  Composite Reliability = 0.707
+  AVE = 0.453
+  Items: 3
+  Quality: α ✅ Good, CR ✅ Good, AVE ⚠️ Low
+
+RC:
+  Cronbach's α = 0.895
+  Composite Reliability = 0.792
+  AVE = 0.655
+  Items: 2
+  Quality: α ✅ Good, CR ✅ Good, AVE ✅ Good
+
+💾 Reliability analysis saved to: reliability_analysis.xlsx
+
+🔗 CORRELATION ANALYSIS
+============================================================
+Construct Correlation Matrix:
+       PE     EE     SI     FC     HM  ...     BI     EM     RP     TT     RC
+PE  1.000  0.430  0.583  0.587  0.694  ...  0.631  0.552  0.575  0.300  0.330
+EE  0.430  1.000  0.357  0.233  0.504  ...  0.406  0.231  0.380  0.180  0.448
+SI  0.583  0.357  1.000  0.514  0.590  ...  0.652  0.537  0.502  0.235  0.324
+FC  0.587  0.233  0.514  1.000  0.610  ...  0.573  0.613  0.488  0.486  0.079
+HM  0.694  0.504  0.590  0.610  1.000  ...  0.682  0.541  0.585  0.371  0.360
+PV  0.583  0.284  0.611  0.726  0.663  ...  0.701  0.613  0.590  0.402  0.213
+HB  0.566  0.358  0.557  0.513  0.637  ...  0.733  0.534  0.526  0.323  0.306
+BI  0.631  0.406  0.652  0.573  0.682  ...  1.000  0.571  0.612  0.236  0.316
+EM  0.552  0.231  0.537  0.613  0.541  ...  0.571  1.000  0.617  0.251  0.263
+RP  0.575  0.380  0.502  0.488  0.585  ...  0.612  0.617  1.000  0.208  0.509
+TT  0.300  0.180  0.235  0.486  0.371  ...  0.236  0.251  0.208  1.000  0.066
+RC  0.330  0.448  0.324  0.079  0.360  ...  0.316  0.263  0.509  0.066  1.000
+
+[12 rows x 12 columns]
+💾 Correlation matrix saved to: correlation_matrix.xlsx
+
+🏗️ STRUCTURAL MODEL ANALYSIS
+============================================================
+Structural Model Paths (Direct Effects to Behavioral Intention):
+- Performance Expectancy → Behavioral Intention
+- Effort Expectancy → Behavioral Intention
+- Social Influence → Behavioral Intention
+- Facilitating Conditions → Behavioral Intention
+- Hedonic Motivation → Behavioral Intention
+- Price Value → Behavioral Intention
+- Habit → Behavioral Intention
+- Economic Motivation → Behavioral Intention
+- Trust in Technology → Behavioral Intention
+- Risk Perception → Behavioral Intention (negative expected)
+
+Path Coefficients (Standardized β):
+----------------------------------------
+R² for Behavioral Intention = 0.712
+Adjusted R² = 0.706
+
+PE → BI: β = +0.071 * (Small effect)
+EE → BI: β = +0.054 * (Small effect)
+SI → BI: β = +0.150 ** (Medium effect)
+FC → BI: β = +0.033  (Small effect)
+HM → BI: β = +0.094 * (Small effect)
+PV → BI: β = +0.249 ** (Medium effect)
+HB → BI: β = +0.355 ** (Large effect)
+EM → BI: β = -0.006  (Small effect)
+TT → BI: β = -0.115 ** (Small effect)
+RP → BI: β = +0.098 * (Small effect)
+
+** Large effect (≥0.35), * Medium effect (≥0.15)
+Note: For rigorous significance testing, use bootstrapping (5000+ samples)
+
+📊 MODEL QUALITY ASSESSMENT
+----------------------------------------
+R² (Behavioral Intention): 0.712
+R² Interpretation: Moderate
+
+Effect Sizes (f²):
+PE: f² = 0.007 (None)
+EE: f² = 0.007 (None)
+SI: f² = 0.039 (Small)
+FC: f² = 0.001 (None)
+HM: f² = 0.010 (None)
+PV: f² = 0.071 (Small)
+HB: f² = 0.216 (Medium)
+EM: f² = 0.000 (None)
+TT: f² = 0.033 (Small)
+RP: f² = 0.016 (None)
+
+💾 Path coefficients saved to: path_coefficients.xlsx
+
+🎯 BEHAVIORAL USE ANALYSIS
+============================================================
+Correlations with Behavioral Use:
+----------------------------------------
+BI → Usage Frequency: r = +0.242
+BI → Weekly Hours: r = +0.122
+
+HB → Usage Frequency: r = +0.228
+HB → Weekly Hours: r = +0.069
+
+FC → Usage Frequency: r = +0.079
+FC → Weekly Hours: r = -0.013
+
+EM → Usage Frequency: r = +0.146
+EM → Weekly Hours: r = +0.044
+
+TT → Usage Frequency: r = -0.129
+TT → Weekly Hours: r = -0.144
+
+RP → Usage Frequency: r = +0.065
+RP → Weekly Hours: r = -0.029
+
+Usage Frequency Distribution:
+  A few times a month: 19 (3.7%)
+  Daily: 281 (54.5%)
+  Monthly or less: 27 (5.2%)
+  Never: 9 (1.7%)
+  Several times a week: 137 (26.6%)
+  Weekly: 43 (8.3%)
+
+📋 ANALYSIS SUMMARY REPORT
+============================================================
+🎯 STUDY OVERVIEW
+Sample Size: 516 participants
+Measurement Model: 12 latent constructs, 42 indicators
+Structural Model: Basic v1 UTAUT2 + GameFi extensions
+
+📊 KEY FINDINGS
+------------------------------
+Measurement Model Quality:
+  Excellent reliability (α ≥ 0.9): 4 constructs
+  Good reliability (α ≥ 0.8): 8 constructs
+  Acceptable reliability (α ≥ 0.7): 0 constructs
+
+Structural Model Results:
+  R² (Behavioral Intention): 0.712
+  Large effects (β ≥ 0.35): 1 paths
+  Medium effects (β ≥ 0.15): 2 paths
+  Small effects (β ≥ 0.02): 6 paths
+
+Strongest Predictors of Behavioral Intention:
+  1. HB: β = +0.355
+  2. PV: β = +0.249
+  3. SI: β = +0.150
+  4. TT: β = -0.115
+  5. RP: β = +0.098
+
+📝 NEXT STEPS
+------------------------------
+1. Review measurement model quality and consider item refinement
+2. Interpret path coefficients in theoretical context
+3. Consider moderation analysis (Age, Gender, Experience)
+4. Examine mediation effects if theoretically justified
+5. Validate findings with predictive relevance (Q²)
+
+💾 Analysis summary saved to: analysis_summary.xlsx
+
+🎉 UTAUT2 PLS-SEM Analysis Complete!
+
+Output Files Generated:
+📊 descriptive_statistics.xlsx
+🔍 reliability_analysis.xlsx
+🔗 correlation_matrix.xlsx
+🏗️ path_coefficients.xlsx
+📋 analysis_summary.xlsx
+📈 correlation_matrix.png
+
+Process finished with exit code 0

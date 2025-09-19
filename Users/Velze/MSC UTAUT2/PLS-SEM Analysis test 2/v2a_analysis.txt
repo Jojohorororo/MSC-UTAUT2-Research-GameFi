@@ -1,0 +1,116 @@
+C:\Users\Velze\PyCharmMiscProject\.venv\Scripts\python.exe "C:\Users\Velze\PyCharmMiscProject\Users\Velze\MSC UTAUT2\PLS-SEM Analysis test 2\v2a_analysis.py" 
+Could not find platform independent libraries <prefix>
+🚀 Starting UTAUT2 v2a Analysis - Complete Core Structural Model...
+✅ Data loaded: 516 participants × 50 variables
+
+📊 Computing construct scores...
+✅ PE: 5 items, M=3.919
+✅ EE: 4 items, M=3.376
+✅ SI: 3 items, M=3.691
+✅ FC: 4 items, M=4.026
+✅ HM: 4 items, M=3.859
+✅ PV: 3 items, M=4.019
+✅ HB: 4 items, M=3.924
+✅ BI: 3 items, M=4.092
+✅ EM: 3 items, M=4.129
+✅ RP: 4 items, M=4.016
+✅ TT: 3 items, M=3.433
+✅ RC: 2 items, M=3.313
+
+🔄 Converting behavioral measures for UB construct...
+✅ UB construct: M=-0.000, SD=0.851
+
+🗂️ v2a STRUCTURAL MODEL ANALYSIS
+============================================================
+📋 v2a Model: All v1 paths + RC → BI (complete core model)
+✅ Model data: 429 complete cases
+
+PART 1: PATHS TO BEHAVIORAL INTENTION
+--------------------------------------------------
+R² for BI = 0.711
+Adjusted R² for BI = 0.703
+
+v2a Path Coefficients to BI:
+PE → BI: β = +0.091* (Small)
+EE → BI: β = +0.073** (Small)
+SI → BI: β = +0.160*** (Medium)
+FC → BI: β = +0.109* (Small)
+HM → BI: β = +0.103* (Small)
+PV → BI: β = +0.214*** (Medium)
+HB → BI: β = +0.314*** (Medium)
+EM → BI: β = -0.015ns (None)
+TT → BI: β = -0.106*** (Small)
+RP → BI: β = +0.097* (Small)
+RC → BI: β = +0.018ns (None)
+
+Effect Sizes (f²) for BI:
+PE: f² = 0.010 (None)
+EE: f² = 0.016 (None)
+SI: f² = 0.044 (Small)
+FC: f² = 0.011 (None)
+HM: f² = 0.010 (None)
+PV: f² = 0.045 (Small)
+HB: f² = 0.161 (Medium)
+EM: f² = 0.000 (None)
+TT: f² = 0.048 (Small)
+RP: f² = 0.012 (None)
+RC: f² = 0.001 (None)
+
+PART 2: PATHS TO USE BEHAVIOR
+--------------------------------------------------
+R² for UB = 0.037
+Adjusted R² for UB = 0.030
+
+Path Coefficients to UB:
+BI → UB: β = +0.213** (Medium)
+HB → UB: β = +0.002ns (None)
+FC → UB: β = -0.098ns (Small)
+
+💾 v2a results saved to: complete_v2a_results.xlsx
+
+📋 v2a HYPOTHESIS TESTING RESULTS
+============================================================
+PATHS TO BEHAVIORAL INTENTION (11 paths):
+HPE→BI: PE → BI = +0.091* (Expected: +) - Supported
+HEE→BI: EE → BI = +0.073** (Expected: +) - Supported
+HSI→BI: SI → BI = +0.160*** (Expected: +) - Supported
+HFC→BI: FC → BI = +0.109* (Expected: +) - Supported
+HHM→BI: HM → BI = +0.103* (Expected: +) - Supported
+HPV→BI: PV → BI = +0.214*** (Expected: +) - Supported
+HHB→BI: HB → BI = +0.314*** (Expected: +) - Supported
+HEM→BI: EM → BI = -0.015ns (Expected: +) - Not Supported
+HTT→BI: TT → BI = -0.106*** (Expected: +) - Not Supported
+HRP→BI: RP → BI = +0.097* (Expected: -) - Not Supported
+HRC→BI: RC → BI = +0.018ns (Expected: +) - Not Supported (ns)
+
+PATHS TO USE BEHAVIOR (3 paths):
+HBI→UB: BI → UB = +0.213** (Expected: +) - Supported
+HHB→UB: HB → UB = +0.002ns (Expected: +) - Not Supported (ns)
+HFC→UB: FC → UB = -0.098ns (Expected: +) - Not Supported
+
+📊 OVERALL v2a MODEL SUMMARY:
+Total Hypotheses: 14
+Supported: 8
+Not Supported: 6
+Support Rate: 57.1%
+
+Model Fit:
+R² (BI) = 0.711
+R² (UB) = 0.037
+
+🔄 COMPARISON TO v1:
+v1 had 10 paths to BI, v2a has 11 paths to BI
+Key addition: RC → BI path
+v1 R² (BI): ~0.712
+v2a R² (BI): 0.711
+R² Change: -0.001
+ℹ️ Adding RC → BI had minimal impact on model fit
+
+🎉 v2a ANALYSIS COMPLETE!
+
+Next Steps:
+- Review RC → BI path significance and direction
+- Compare v2a vs v1 model performance
+- Ready for v2b (GameFi inter-construct relationships)
+
+Process finished with exit code 0
