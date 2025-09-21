@@ -1,0 +1,245 @@
+C:\Users\Velze\PyCharmMiscProject\.venv\Scripts\python.exe "C:\Users\Velze\PyCharmMiscProject\Users\Velze\MSC UTAUT2\Factor Analysis\test1.py" 
+Could not find platform independent libraries <prefix>
+🚀 UTAUT2 + GAMEFI FACTOR ANALYSIS PIPELINE
+==================================================
+Analyzing 42 Likert items across 12 theoretical constructs
+Study: Technology Acceptance in GameFi Platforms
+
+🚀 LOADING UTAUT2 + GAMEFI DATA FOR FACTOR ANALYSIS
+============================================================
+✅ Data loaded: 516 participants × 50 variables
+✅ Factor analysis dataset: 516 × 42 items
+✅ Missing values: 0
+
+📊 FACTORABILITY ASSESSMENT
+----------------------------------------
+Kaiser-Meyer-Olkin (KMO) Test:
+  Overall KMO: 0.9488
+  Interpretation: Excellent (≥0.9)
+
+Bartlett's Test of Sphericity:
+  Chi-square: 20141.22
+  p-value: 0.00e+00
+  Interpretation: ✅ Significant (p < 0.05) - Factor analysis appropriate
+
+📈 DETERMINING OPTIMAL NUMBER OF FACTORS
+---------------------------------------------
+Kaiser Criterion (eigenvalues > 1): 8 factors
+Variance explained by first 12 factors: 82.8%
+
+🔍 CONFIRMATORY FACTOR ANALYSIS (12 FACTORS)
+--------------------------------------------------
+✅ Factor analysis completed
+Variance explained: 57.0%
+
+📋 FACTOR LOADING ANALYSIS
+-----------------------------------
+
+Construct-Factor Alignment Analysis:
+========================================
+
+PE Construct:
+  PE1: Factor_1 (loading: 0.814)
+  PE2: Factor_1 (loading: 0.851)
+  PE3: Factor_1 (loading: 0.778)
+  PE4: Factor_1 (loading: 0.830)
+  PE5: Factor_1 (loading: 0.767)
+  ✅ All items load on Factor_1
+
+EE Construct:
+  EE1: Factor_2 (loading: 0.858)
+  EE2: Factor_2 (loading: 0.836)
+  EE3: Factor_2 (loading: 0.782)
+  EE4: Factor_2 (loading: 0.612)
+  ✅ All items load on Factor_2
+
+SI Construct:
+  SI1: Factor_11 (loading: 0.666)
+  SI2: Factor_11 (loading: 0.563)
+  SI3: Factor_11 (loading: 0.594)
+  ✅ All items load on Factor_11
+
+FC Construct:
+  FC1: Factor_5 (loading: 0.514)
+  FC2: Factor_12 (loading: 0.486)
+  FC3: Factor_12 (loading: 0.427)
+  FC4: Factor_12 (loading: 0.356)
+  ⚠️  Items spread across factors: {'Factor_12', 'Factor_5'}
+
+HM Construct:
+  HM1: Factor_7 (loading: 0.797)
+  HM2: Factor_7 (loading: 0.764)
+  HM3: Factor_7 (loading: 0.661)
+  HM4: Factor_7 (loading: 0.397)
+  ✅ All items load on Factor_7
+
+PV Construct:
+  PV1: Factor_9 (loading: 0.824)
+  PV2: Factor_9 (loading: 0.604)
+  PV3: Factor_9 (loading: 0.452)
+  ✅ All items load on Factor_9
+
+HB Construct:
+  HB1: Factor_3 (loading: 0.708)
+  HB2: Factor_3 (loading: 0.731)
+  HB3: Factor_3 (loading: 0.763)
+  HB4: Factor_3 (loading: 0.827)
+  ✅ All items load on Factor_3
+
+BI Construct:
+  BI1: Factor_10 (loading: 0.579)
+  BI2: Factor_10 (loading: 0.643)
+  BI3: Factor_10 (loading: 0.598)
+  ✅ All items load on Factor_10
+
+EM Construct:
+  EM1: Factor_6 (loading: 0.693)
+  EM2: Factor_6 (loading: 0.770)
+  EM3: Factor_6 (loading: 0.874)
+  ✅ All items load on Factor_6
+
+RP Construct:
+  RP1: Factor_4 (loading: 0.629)
+  RP2: Factor_4 (loading: 0.587)
+  RP3: Factor_4 (loading: 0.883)
+  RP4: Factor_4 (loading: 0.842)
+  ✅ All items load on Factor_4
+
+TT Construct:
+  TT1: Factor_5 (loading: 0.729)
+  TT2: Factor_5 (loading: 0.858)
+  TT3: Factor_5 (loading: 0.747)
+  ✅ All items load on Factor_5
+
+RC Construct:
+  RC1: Factor_8 (loading: 0.823)
+  RC2: Factor_8 (loading: 0.806)
+  ✅ All items load on Factor_8
+
+⚠️  Items requiring attention (11):
+  • SI2: low loading (0.563)
+  • SI3: low loading (0.594)
+  • FC1: low loading (0.514)
+  • FC2: low loading (0.486)
+  • FC3: low loading (0.427)
+  • FC4: low loading (0.356)
+  • HM4: low loading (0.397)
+  • PV3: low loading (0.452)
+  • BI1: low loading (0.579)
+  • BI3: low loading (0.598)
+  • RP2: low loading (0.587)
+
+🎯 CONSTRUCT VALIDITY ASSESSMENT
+----------------------------------------
+PE:
+  Items: 5
+  AVE: 0.654 ✅ (Good)
+  Composite Reliability: 0.904 ✅
+EE:
+  Items: 4
+  AVE: 0.605 ✅ (Good)
+  Composite Reliability: 0.858 ✅
+SI:
+  Items: 3
+  AVE: 0.371 ❌ (Poor)
+  Composite Reliability: 0.638 ❌
+FC:
+  Items: 4
+  AVE: 0.202 ❌ (Poor)
+  Composite Reliability: 0.499 ❌
+HM:
+  Items: 4
+  AVE: 0.453 ❌ (Poor)
+  Composite Reliability: 0.758 ✅
+PV:
+  Items: 3
+  AVE: 0.416 ❌ (Poor)
+  Composite Reliability: 0.668 ❌
+HB:
+  Items: 4
+  AVE: 0.576 ✅ (Good)
+  Composite Reliability: 0.844 ✅
+BI:
+  Items: 3
+  AVE: 0.369 ❌ (Poor)
+  Composite Reliability: 0.636 ❌
+EM:
+  Items: 3
+  AVE: 0.612 ✅ (Good)
+  Composite Reliability: 0.824 ✅
+RP:
+  Items: 4
+  AVE: 0.557 ✅ (Good)
+  Composite Reliability: 0.830 ✅
+TT:
+  Items: 3
+  AVE: 0.608 ✅ (Good)
+  Composite Reliability: 0.823 ✅
+RC:
+  Items: 2
+  AVE: 0.664 ✅ (Good)
+  Composite Reliability: 0.798 ✅
+
+📊 FACTOR ANALYSIS SUMMARY TABLE
+----------------------------------------
+   Factor  Eigenvalue  Variance_Explained_%  Cumulative_Variance_% Likely_Construct Top_Loading_Items  Highest_Loading
+ Factor_1       3.435                 8.178                  8.178               PE     PE2, PE4, PE1            0.851
+ Factor_2       2.636                 6.277                 14.455               EE     EE1, EE2, EE3            0.858
+ Factor_3       2.518                 5.995                 20.450               HB     HB4, HB3, HB2            0.827
+ Factor_4       2.361                 5.621                 26.071               RP     RP3, RP4, RP1            0.883
+ Factor_5       2.131                 5.075                 31.145               TT     TT2, TT3, TT1            0.858
+ Factor_6       2.060                 4.906                 36.051               EM     EM3, EM2, EM1            0.874
+ Factor_7       2.027                 4.825                 40.877               HM     HM1, HM2, HM3            0.797
+ Factor_8       1.633                 3.888                 44.764               RC     RC1, RC2, EE4            0.823
+ Factor_9       1.521                 3.622                 48.387               PV     PV1, PV2, PV3            0.824
+Factor_10       1.331                 3.168                 51.555               BI     BI2, BI3, BI1            0.643
+Factor_11       1.286                 3.061                 54.616               SI     SI1, SI3, SI2            0.666
+Factor_12       0.995                 2.368                 56.985               FC     FC2, FC3, FC4            0.486
+
+💾 Summary table saved as 'factor_analysis_summary.csv'
+
+============================================================
+🎯 FACTOR ANALYSIS - FINAL REPORT
+============================================================
+
+FACTOR ANALYSIS RESULTS SUMMARY
+========================================
+
+DATA OVERVIEW:
+• Sample Size: 42 items from 516 participants
+• Ratio: 12.3 participants per item (Excellent)
+• Missing Data: Handled appropriately
+
+FACTORABILITY ASSESSMENT:
+• KMO Test: 0.9488 (Excellent)
+• Bartlett's Test: p = 0.00e+00 (Significant)
+
+FACTOR STRUCTURE:
+• Number of Factors Extracted: 12 (theoretical model)
+• Total Variance Explained: 57.0%
+• Rotation Method: Oblimin (oblique)
+• Extraction Method: Maximum Likelihood
+
+CONSTRUCT VALIDITY:
+• PE: AVE = 0.654, CR = 0.904
+• EE: AVE = 0.605, CR = 0.858
+• SI: AVE = 0.371, CR = 0.638
+• FC: AVE = 0.202, CR = 0.499
+• HM: AVE = 0.453, CR = 0.758
+• PV: AVE = 0.416, CR = 0.668
+• HB: AVE = 0.576, CR = 0.844
+• BI: AVE = 0.369, CR = 0.636
+• EM: AVE = 0.612, CR = 0.824
+• RP: AVE = 0.557, CR = 0.830
+• TT: AVE = 0.608, CR = 0.823
+• RC: AVE = 0.664, CR = 0.798
+
+RECOMMENDATIONS:
+✅ Data is excellent for factor analysis
+⚠️ Consider additional factors (57.0% explained)
+⚠️ Low AVE constructs: SI, FC, HM, PV, BI
+
+❌ Error: 'charmap' codec can't encode character '\u2705' in position 943: character maps to <undefined>
+Please check your data file and try again.
+
+Process finished with exit code 0
