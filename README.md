@@ -21,6 +21,18 @@ Economic Motivation, Risk Perception, Trust in Technology, and Regulatory & Comp
 and tests the resulting model on 516 GameFi users, predominantly from Southeast Asia and
 Latin America.
 
+![The hypothesised GameFi adoption model — extended UTAUT2 framework](research-model.png)
+
+<sub>**The hypothesised research model** (Σχήμα 4 in the dissertation, p. 47). Blue = core UTAUT2
+constructs, green = GameFi-specific extensions. Solid arrows are hypothesised direct effects; red
+arrows are hypothesised *negative* effects; dashed arrows are moderations. **This is the model as
+proposed, not the model as confirmed.** Two of the hypothesised negative paths were not supported —
+Trust → Risk Perception came out at β = +0.129 (p < 0.001) and Regulatory Compliance → Risk
+Perception at β = +0.394 (p < 0.001), both significantly positive rather than negative. Of the
+three moderators shown, **only Experience was tested**; Age and Gender were excluded because the
+sample offers too little variance to moderate on (91.7% are aged 18–34 and 75.2% are male). See
+*Key findings* below for what the data actually supported.</sub>
+
 > **A note on the folder layout.** Everything lives under `Users/Velze/MSC UTAUT2/`. That path is
 > a leftover from the original local project directory. It is kept deliberately: the dissertation
 > text contains permanent hyperlinks into these exact paths, and renaming them would break every
