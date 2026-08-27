@@ -1,0 +1,259 @@
+
+======================================================================
+ UTAUT2 GAMEFI CLUSTER ANALYSIS
+ K-Means Clustering with Validation
+======================================================================
+======================================================================
+STEP 1: LOADING DATA AND CALCULATING CONSTRUCT MEANS
+======================================================================
+Dataset loaded successfully!
+Total participants: 516
+Total columns: 50
+
+Calculating construct means from individual items:
+  ✓ PE: Mean of 5 items calculated
+  ✓ EE: Mean of 4 items calculated
+  ✓ SI: Mean of 3 items calculated
+  ✓ FC: Mean of 4 items calculated
+  ✓ HM: Mean of 4 items calculated
+  ✓ PV: Mean of 3 items calculated
+  ✓ HB: Mean of 4 items calculated
+  ✓ BI: Mean of 3 items calculated
+  ✓ EM: Mean of 3 items calculated
+  ✓ RP: Mean of 4 items calculated
+  ✓ TT: Mean of 3 items calculated
+  ✓ RC: Mean of 2 items calculated
+
+Missing values in constructs: 0
+
+Final data shape: (516, 12)
+
+Descriptive Statistics of Constructs:
+           PE      EE      SI      FC  ...      EM      RP      TT      RC
+count  516.00  516.00  516.00  516.00  ...  516.00  516.00  516.00  516.00
+mean     3.92    3.38    3.69    4.03  ...    4.13    4.02    3.43    3.31
+std      0.83    1.07    0.91    0.85  ...    0.94    0.91    1.19    1.25
+min      1.00    1.00    1.00    1.00  ...    1.00    1.00    1.00    1.00
+25%      3.60    2.50    3.00    3.50  ...    3.67    3.50    3.00    2.00
+50%      4.00    3.50    4.00    4.25  ...    4.33    4.25    3.67    3.00
+75%      4.40    4.25    4.33    4.75  ...    5.00    4.75    4.33    4.50
+max      5.00    5.00    5.00    5.00  ...    5.00    5.00    5.00    5.00
+
+[8 rows x 12 columns]
+
+======================================================================
+STEP 2: NO STANDARDISATION - RAW CONSTRUCT MEANS (THESIS VERSION)
+======================================================================
+Clustering on RAW construct means (no standardisation).
+
+Construct standard deviations (these drive the k-means solution):
+RC    1.252
+TT    1.188
+EE    1.069
+BI    0.952
+HB    0.950
+EM    0.936
+SI    0.914
+RP    0.908
+PV    0.869
+HM    0.866
+FC    0.849
+PE    0.833
+
+Raw data statistics:
+           PE      EE      SI      FC  ...      EM      RP      TT      RC
+count  516.00  516.00  516.00  516.00  ...  516.00  516.00  516.00  516.00
+mean     3.92    3.38    3.69    4.03  ...    4.13    4.02    3.43    3.31
+std      0.83    1.07    0.91    0.85  ...    0.94    0.91    1.19    1.25
+min      1.00    1.00    1.00    1.00  ...    1.00    1.00    1.00    1.00
+25%      3.60    2.50    3.00    3.50  ...    3.67    3.50    3.00    2.00
+50%      4.00    3.50    4.00    4.25  ...    4.33    4.25    3.67    3.00
+75%      4.40    4.25    4.33    4.75  ...    5.00    4.75    4.33    4.50
+max      5.00    5.00    5.00    5.00  ...    5.00    5.00    5.00    5.00
+
+[8 rows x 12 columns]
+
+======================================================================
+STEP 3: ELBOW METHOD ANALYSIS
+======================================================================
+k=2: Within-cluster sum of squares = 4077.75
+k=3: Within-cluster sum of squares = 3334.62
+k=4: Within-cluster sum of squares = 2842.01
+k=5: Within-cluster sum of squares = 2405.58
+k=6: Within-cluster sum of squares = 2211.25
+k=7: Within-cluster sum of squares = 2057.05
+k=8: Within-cluster sum of squares = 1949.45
+k=9: Within-cluster sum of squares = 1856.88
+k=10: Within-cluster sum of squares = 1786.01
+
+✓ Elbow plot saved as 'elbow_plot.png'
+
+======================================================================
+STEP 4: SILHOUETTE ANALYSIS
+======================================================================
+k=2: Average silhouette score = 0.3693
+k=3: Average silhouette score = 0.2366
+k=4: Average silhouette score = 0.2706
+k=5: Average silhouette score = 0.2904
+k=6: Average silhouette score = 0.2663
+k=7: Average silhouette score = 0.2662
+k=8: Average silhouette score = 0.2549
+k=9: Average silhouette score = 0.2592
+k=10: Average silhouette score = 0.2551
+
+✓ Silhouette plot saved as 'silhouette_plot.png'
+
+Optimal k based on silhouette score: 2
+
+======================================================================
+STEP 5: K-MEANS CLUSTERING (k=4)
+======================================================================
+✓ Convergence achieved in 11 iterations
+Final inertia: 2842.01
+Silhouette score: 0.2706
+
+Cluster sizes:
+  Cluster 1: 81 participants (15.7%)
+  Cluster 2: 176 participants (34.1%)
+  Cluster 3: 192 participants (37.2%)
+  Cluster 4: 67 participants (13.0%)
+
+======================================================================
+STEP 6: CLUSTER PROFILE ANALYSIS
+======================================================================
+
+Cluster Means by Construct:
+           PE    EE    SI    FC    HM    PV    HB    BI    EM    RP    TT    RC
+Cluster                                                                        
+1        2.76  2.57  2.49  2.68  2.55  2.56  2.50  2.50  2.72  2.73  2.58  2.62
+2        4.27  4.04  4.01  4.30  4.33  4.34  4.32  4.39  4.33  4.40  4.47  4.27
+3        3.96  2.83  3.74  4.47  3.86  4.32  4.00  4.23  4.39  3.96  3.56  2.28
+4        4.29  4.17  4.16  3.65  4.19  4.08  4.38  4.83  4.56  4.73  1.40  4.58
+
+======================================================================
+ANOVA RESULTS (Testing between-cluster differences)
+======================================================================
+PE: F=111.34, p<0.001 ***
+EE: F=108.82, p<0.001 ***
+SI: F=92.72, p<0.001 ***
+FC: F=215.17, p<0.001 ***
+HM: F=158.87, p<0.001 ***
+PV: F=198.99, p<0.001 ***
+HB: F=137.09, p<0.001 ***
+BI: F=218.10, p<0.001 ***
+EM: F=129.03, p<0.001 ***
+RP: F=145.00, p<0.001 ***
+TT: F=447.09, p<0.001 ***
+RC: F=297.97, p<0.001 ***
+
+======================================================================
+CLUSTER DISTINCTIVE CHARACTERISTICS
+======================================================================
+
+Cluster 1 (n=81, 15.7%):
+  Highest scores:
+    PE: 2.76
+    RP: 2.73
+    EM: 2.72
+  Lowest scores:
+    SI: 2.49
+    BI: 2.50
+    HB: 2.50
+
+Cluster 2 (n=176, 34.1%):
+  Highest scores:
+    TT: 4.47
+    RP: 4.40
+    BI: 4.39
+  Lowest scores:
+    SI: 4.01
+    EE: 4.04
+    RC: 4.27
+
+Cluster 3 (n=192, 37.2%):
+  Highest scores:
+    FC: 4.47
+    EM: 4.39
+    PV: 4.32
+  Lowest scores:
+    RC: 2.28
+    EE: 2.83
+    TT: 3.56
+
+Cluster 4 (n=67, 13.0%):
+  Highest scores:
+    BI: 4.83
+    RP: 4.73
+    RC: 4.58
+  Lowest scores:
+    TT: 1.40
+    FC: 3.65
+    PV: 4.08
+
+======================================================================
+STEP 7: ASSIGNING CLUSTER NAMES (Based on Statistical Profiles)
+======================================================================
+
+Analyzing cluster profiles to assign names...
+(Based on distinctive statistical patterns)
+
+Cluster 1 (n=81, 15.7%):
+  Key stats: TT=2.58, RP=2.73, BI=2.50, RC=2.62, Mean=2.60
+  → Identified as: Disengaged Users (Low across all constructs)
+
+Cluster 2 (n=176, 34.1%):
+  Key stats: TT=4.47, RP=4.40, BI=4.39, RC=4.27, Mean=4.29
+  → Identified as: Confident Enthusiasts (High TT + High overall)
+
+Cluster 3 (n=192, 37.2%):
+  Key stats: TT=3.56, RP=3.96, BI=4.23, RC=2.28, Mean=3.80
+  → Identified as: Pragmatic Adopters (High FC + Low RC)
+
+Cluster 4 (n=67, 13.0%):
+  Key stats: TT=1.40, RP=4.73, BI=4.83, RC=4.58, Mean=4.09
+  → Identified as: Risk-Aware Skeptics (Low TT + High RP + High BI)
+
+======================================================================
+FINAL CLUSTER ASSIGNMENTS:
+======================================================================
+  Cluster 1 = Disengaged Users (n=81, 15.7%)
+  Cluster 2 = Confident Enthusiasts (n=176, 34.1%)
+  Cluster 3 = Pragmatic Adopters (n=192, 37.2%)
+  Cluster 4 = Risk-Aware Skeptics (n=67, 13.0%)
+
+
+======================================================================
+STEP 8: CREATING VISUALIZATIONS
+======================================================================
+✓ Cluster sizes plot saved
+✓ Heatmap saved
+✓ Parallel coordinates plot saved
+✓ Trust vs Risk plot saved
+✓ Behavioral Intention vs Trust plot saved
+
+✓ All visualizations saved successfully!
+
+======================================================================
+STEP 9: EXPORTING RESULTS
+======================================================================
+✓ Results exported to 'cluster_analysis_results.xlsx'
+  - Sheet 1: Full data with cluster assignments
+  - Sheet 2: Cluster means by construct
+  - Sheet 3: Cluster sizes and names
+  - Sheet 4: ANOVA statistical tests
+
+======================================================================
+ ANALYSIS COMPLETE!
+======================================================================
+
+Generated files:
+  - elbow_plot.png
+  - silhouette_plot.png
+  - cluster_sizes.png
+  - cluster_heatmap.png
+  - parallel_coordinates.png
+  - trust_vs_risk.png
+  - intention_vs_trust.png
+  - cluster_analysis_results.xlsx
+
+======================================================================
