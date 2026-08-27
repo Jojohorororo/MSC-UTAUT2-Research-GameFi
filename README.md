@@ -37,6 +37,7 @@ Latin America.
 | **[Factor Analysis](Users/Velze/MSC%20UTAUT2/Factor%20Analysis)** | KMO, Bartlett's test, EFA, scree plot, loadings heatmap |
 | **[PLS-SEM Analysis](Users/Velze/MSC%20UTAUT2/PLS-SEM%20Analysis%20test%202)** | Data cleaning, measurement model, structural models v1/v2a/v2b, moderation analyses |
 | **[Cluster Analysis](Users/Velze/MSC%20UTAUT2/Cluster%20Analysis)** | k-means segmentation, elbow and silhouette diagnostics, cluster profiles |
+| **[Cluster Analysis — Thesis version](Users/Velze/MSC%20UTAUT2/Thesis%20version)** | The k-means run reported in the dissertation (Ch. 4.3). See *Two clustering solutions* below |
 | **[Demographics](Users/Velze/MSC%20UTAUT2/14-Demographic)** | Age, gender, education, income, experience, region — charts and scripts |
 | **Constructs 1–13** | Folders `1-Performance-Expectancy-(PE)` through `13.-Use-Behavior-(UB)` — per-question distributions, charts and item wording |
 
@@ -204,10 +205,10 @@ Stated plainly, because they affect how the results should be read:
 
 ## Two clustering solutions
 
-The `Cluster Analysis` folder contains **two** k-means runs on the same data. This is deliberate,
-and worth understanding before citing either.
+This repository contains **two** k-means runs on the same data, in two folders. This is
+deliberate, and worth understanding before citing either.
 
-| | `Thesis version/` | `Cluster Analysis/` (parent folder) |
+| | `Thesis version/` | `Cluster Analysis/` |
 |---|---|---|
 | Preprocessing | raw 1–5 construct means | z-scored constructs |
 | Risk-Aware Skeptics | **n = 67** (13.0%) | n = 243 (47.1%) |
@@ -258,10 +259,10 @@ better on silhouette (0.271 vs 0.228).
 ### Reproducing each
 
 ```bash
-cd "Users/Velze/MSC UTAUT2/Cluster Analysis/Thesis version"
+cd "Users/Velze/MSC UTAUT2/Thesis version"
 python "cluster analysis (thesis version).py"      # the dissertation's solution
 
-cd ..
+cd "../Cluster Analysis"
 python "cluster analysis.py"                        # the z-scored variant
 ```
 
