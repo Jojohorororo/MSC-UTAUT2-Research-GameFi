@@ -184,15 +184,90 @@ Stated plainly, because they affect how the results should be read:
 - **Use Behaviour is weakly measured.** Two self-reported items, α = 0.666, R² = 0.037. The
   behavioural half of the model is the weakest part of the study: intention is well explained,
   actual use is not.
-- **The cluster solution is exploratory, and its labels are unreliable.** k = 4 was chosen for
-  interpretability, not fit — the silhouette score at k = 4 is 0.228, well under the 0.5
-  separation threshold the script itself plots, and the silhouette optimum is k = 2. The four
-  groups do differ on all 12 constructs at p < 0.001, but they are soft regions rather than clean
-  segments. Separately, the descriptive names assigned in `cluster analysis.py` come from a
-  rule-based fallback and do not all match their profiles — Cluster 2 (n = 243) is labelled
-  *Risk-Aware Skeptics* while actually scoring highest on nearly every construct. **Read the
-  numbers in `cluster_analysis_results.xlsx` (sheet `Cluster_Means`), not the labels.**
+- **The cluster solution is exploratory.** k = 4 was chosen for interpretability as much as fit —
+  the silhouette optimum is k = 2, and at k = 4 the score is 0.271. All 12 constructs differ
+  across the four groups at p < 0.001, but they are soft regions rather than sharply separated
+  segments. See *Two clustering solutions* below.
 - **Cross-sectional and self-selected.** No causal claims are made or supported.
+
+---
+
+## Two clustering solutions
+
+The `Cluster Analysis` folder contains **two** k-means runs on the same data. This is deliberate,
+and worth understanding before citing either.
+
+| | `thesis-version/` | `Cluster Analysis/` (parent folder) |
+|---|---|---|
+| Preprocessing | raw 1–5 construct means | z-scored constructs |
+| Risk-Aware Skeptics | **n = 67** (13.0%) | n = 243 (47.1%) |
+| Disengaged Users | **n = 81** (15.7%) | n = 22 (4.3%) |
+| Pragmatic Adopters | **n = 192** (37.2%) | n = 171 (33.1%) |
+| Confident Enthusiasts | **n = 176** (34.1%) | n = 80 (15.5%) |
+| Silhouette (k = 4) | **0.271** | 0.228 |
+| Reported in the dissertation | **yes** (Ch. 4.3) | no |
+
+**The `thesis-version/` run is the one reported in the dissertation.** The two scripts are
+identical apart from a single step: whether the twelve construct scores are z-scored before
+k-means.
+
+### Why that one step changes the answer
+
+The constructs do not have equal variance on the 1–5 scale. Regulatory & Compliance Risks
+(SD = 1.25) and Trust in Technology (SD = 1.19) spread respondents out considerably more than
+Performance Expectancy (SD = 0.83) or Facilitating Conditions (SD = 0.85) do. Because k-means
+minimises squared Euclidean distance, it implicitly weights each dimension by its variance — so
+in the raw space, trust and regulatory concern drive the partition.
+
+Z-scoring removes that weighting and forces every construct to count equally. The effect is
+measurable in the results: Trust in Technology goes from being the **strongest** separator
+between clusters (a 3.06-point spread from 1.40 to 4.47 on the 1–5 scale) to the **weakest**
+(2.13). Once trust stops differentiating, the solution collapses into a general
+high / medium / low agreement gradient, and the four segments are distinguished mainly by how
+positively respondents answered overall.
+
+Both are legitimate preprocessing choices, and neither is a mistake. Which one is appropriate
+depends on the question. This study asks whether GameFi users divide into groups with
+*qualitatively different adoption logics* — so the informative solution is the one that lets
+naturally high-variance constructs separate people, rather than the one that flattens them into
+a single satisfaction dimension.
+
+### Why the raw-space solution is the one that answers the research question
+
+Its distinguishing segment is **Risk-Aware Skeptics (n = 67)**: Trust in Technology = **1.40**,
+Risk Perception = 4.73, Behavioural Intention = **4.83**. These are people with almost no trust
+in the technology, high awareness of its risks, and the *highest* intention to keep using it in
+the entire sample.
+
+That group is the empirical anchor for the study's central structural finding — the negative
+TT → BI path and the significant Trust × Risk interaction reported in Chapter 4.4. In the
+z-scored solution this segment does not appear at all; its trust signal is averaged away, and
+no cluster has a trust score below 1.52 or above 3.64. The raw-space solution also separates
+better on silhouette (0.271 vs 0.228).
+
+### Reproducing each
+
+```bash
+cd "Users/Velze/MSC UTAUT2/Cluster Analysis/thesis-version"
+python "cluster analysis (thesis version).py"      # the dissertation's solution
+
+cd ..
+python "cluster analysis.py"                        # the z-scored variant
+```
+
+### Two caveats, stated plainly
+
+- **Cluster sizes drift slightly.** The dissertation reports 67 / 81 / 182 / 186; re-running the
+  script today gives 67 / 81 / 192 / 176. The two distinctive segments reproduce exactly, in size
+  and in all twelve construct means to two decimal places. The two larger, more similar groups
+  exchange about six cases — expected behaviour for k-means on weakly separated clusters, and
+  sensitive to the scikit-learn version.
+- **The F-statistics in the dissertation's Σχήμα 18 do not reproduce.** The table reports F values
+  between 38.67 and 72.45; this script produces 92–447. Every construct is significant at
+  p < 0.001 in both, so the substantive conclusion — that the four groups differ on all twelve
+  constructs — holds either way, but the exact F values in that table should not be relied on.
+  Use `thesis-version/cluster_analysis_results.xlsx` (sheet `ANOVA_Results`) for the figures this
+  code actually produces.
 
 ---
 
