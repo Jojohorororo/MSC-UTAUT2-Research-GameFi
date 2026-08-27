@@ -66,6 +66,16 @@ The cleaned dataset is at
 routine and perceived value for money. Wanting to earn is near-universal in this sample, so it
 does not discriminate between who intends to keep playing and who does not.
 
+> **A note on the dissertation abstract.** The abstract describes Economic Motivation as the
+> strongest predictor of intention and use. That is a description of the *descriptive* result:
+> EM is the highest-rated construct in the sample (M = 4.13, above all eleven others). It is not
+> a statement about predictive weight. In the structural model reported in Chapter 4.4 — and in
+> `path_coefficients.xlsx` in this repository — EM → BI is β = −0.006 (ns), and the strongest
+> predictor of intention is Habit at β = +0.355. EM is not the strongest predictor of use either
+> (r = +0.15 with usage frequency, against +0.24 for Behavioural Intention and +0.23 for Habit).
+> Where the abstract and the structural model differ, **Chapter 4.4 and the outputs in this
+> repository are the authoritative account.**
+
 **2. Trust runs the wrong way — and that is the interesting part.** Trust in Technology has a
 *negative* direct effect on intention (β = −0.115, p < 0.01) and Risk Perception a *positive* one
 (β = +0.098). Both contradict the standard hypotheses. The moderation analysis explains why:
@@ -197,7 +207,7 @@ Stated plainly, because they affect how the results should be read:
 The `Cluster Analysis` folder contains **two** k-means runs on the same data. This is deliberate,
 and worth understanding before citing either.
 
-| | `thesis-version/` | `Cluster Analysis/` (parent folder) |
+| | `Thesis version/` | `Cluster Analysis/` (parent folder) |
 |---|---|---|
 | Preprocessing | raw 1–5 construct means | z-scored constructs |
 | Risk-Aware Skeptics | **n = 67** (13.0%) | n = 243 (47.1%) |
@@ -207,7 +217,7 @@ and worth understanding before citing either.
 | Silhouette (k = 4) | **0.271** | 0.228 |
 | Reported in the dissertation | **yes** (Ch. 4.3) | no |
 
-**The `thesis-version/` run is the one reported in the dissertation.** The two scripts are
+**The `Thesis version/` run is the one reported in the dissertation.** The two scripts are
 identical apart from a single step: whether the twelve construct scores are z-scored before
 k-means.
 
@@ -248,7 +258,7 @@ better on silhouette (0.271 vs 0.228).
 ### Reproducing each
 
 ```bash
-cd "Users/Velze/MSC UTAUT2/Cluster Analysis/thesis-version"
+cd "Users/Velze/MSC UTAUT2/Cluster Analysis/Thesis version"
 python "cluster analysis (thesis version).py"      # the dissertation's solution
 
 cd ..
@@ -266,7 +276,7 @@ python "cluster analysis.py"                        # the z-scored variant
   between 38.67 and 72.45; this script produces 92–447. Every construct is significant at
   p < 0.001 in both, so the substantive conclusion — that the four groups differ on all twelve
   constructs — holds either way, but the exact F values in that table should not be relied on.
-  Use `thesis-version/cluster_analysis_results.xlsx` (sheet `ANOVA_Results`) for the figures this
+  Use `Thesis version/cluster_analysis_results.xlsx` (sheet `ANOVA_Results`) for the figures this
   code actually produces.
 
 ---
