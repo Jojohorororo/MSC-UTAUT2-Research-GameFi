@@ -311,7 +311,7 @@ on LinkedIn:
 
 **→ [linkedin.com/in/george-dikos-6b371a287](https://www.linkedin.com/in/george-dikos-6b371a287)**
 
-I am glad to hear from researchers building on this, and from anyone who finds something in the
+I would be glad to hear from researchers building on this, and from anyone who finds something in the
 data I missed.
 
 ---
