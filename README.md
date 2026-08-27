@@ -205,5 +205,20 @@ Attribution is appreciated:
 > Dikos, G. (2025). *GameFi: Opportunities, Challenges and Prospects.* MSc dissertation,
 > University of Western Macedonia, Department of Management Science and Technology.
 
-If you have questions about the methodology, or would like to
-discuss the findings, reach out on LinkedIn.
+The full dissertation (125 pages, Greek with English abstract) is in this repository:
+**[GameFi - Opportunities, Challenges and Prospects.pdf](GameFi%20-%20Opportunities,%20Challenges%20and%20Prospects.pdf)**
+
+If you have questions about the methodology, or would like to discuss the findings, reach out
+on LinkedIn:
+
+**→ [linkedin.com/in/george-dikos-6b371a287](https://www.linkedin.com/in/george-dikos-6b371a287)**
+
+I am glad to hear from researchers building on this, and from anyone who finds something in the
+data I missed.
+
+---
+
+## Licence
+
+Released under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE) - free to
+share and adapt, including commercially, with attribution.
